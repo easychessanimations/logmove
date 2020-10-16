@@ -11,7 +11,8 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e4"
+          "root_e4",
+          "root_d4"
         ],
         "parentid": null,
         "weights": [
@@ -45,7 +46,9 @@
         "genalgeb": "a7a6",
         "gensan": "a6",
         "fen": "rnbqkbnr/1ppppppp/p7/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
-        "childids": [],
+        "childids": [
+          "root_e4_a6_a4"
+        ],
         "parentid": "root_e4",
         "weights": [
           0,
@@ -232,6 +235,70 @@
         "fen": "r1bqkb1r/ppp2ppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQK2R w KQkq - 2 7",
         "childids": [],
         "parentid": "root_e4_e5_Nf3_Nf6_Nxe5_d6_Nf3_Nxe4_d4_d5_Bd3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_a6_a4": {
+        "id": "root_e4_a6_a4",
+        "genalgeb": "a2a4",
+        "gensan": "a4",
+        "fen": "rnbqkbnr/1ppppppp/p7/8/P3P3/8/1PPP1PPP/RNBQKBNR b KQkq - 0 2",
+        "childids": [
+          "root_e4_a6_a4_d5"
+        ],
+        "parentid": "root_e4_a6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_a6_a4_d5": {
+        "id": "root_e4_a6_a4_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/1pp1pppp/p7/3p4/P3P3/8/1PPP1PPP/RNBQKBNR w KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_e4_a6_a4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_d4_Nf6"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_Nf6": {
+        "id": "root_d4_Nf6",
+        "genalgeb": "g8f6",
+        "gensan": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "childids": [],
+        "parentid": "root_d4",
         "weights": [
           0,
           0
