@@ -10,8 +10,76 @@
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_h3"
+        ],
         "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_h3": {
+        "id": "root_h3",
+        "genalgeb": "h2h3",
+        "gensan": "h3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7P/PPPPPPP1/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_h3_a5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_h3_a5": {
+        "id": "root_h3_a5",
+        "genalgeb": "a7a5",
+        "gensan": "a5",
+        "fen": "rnbqkbnr/1ppppppp/8/p7/8/7P/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_h3_a5_d4"
+        ],
+        "parentid": "root_h3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_h3_a5_d4": {
+        "id": "root_h3_a5_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/1ppppppp/8/p7/3P4/7P/PPP1PPP1/RNBQKBNR b KQkq - 0 2",
+        "childids": [
+          "root_h3_a5_d4_a4"
+        ],
+        "parentid": "root_h3_a5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_h3_a5_d4_a4": {
+        "id": "root_h3_a5_d4_a4",
+        "genalgeb": "a5a4",
+        "gensan": "a4",
+        "fen": "rnbqkbnr/1ppppppp/8/8/p2P4/7P/PPP1PPP1/RNBQKBNR w KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_h3_a5_d4",
         "weights": [
           0,
           0
@@ -21,7 +89,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root",
+    "currentnodeid": "root_h3_a5_d4_a4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
