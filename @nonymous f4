@@ -11,7 +11,7 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e4"
+          "root_d3"
         ],
         "parentid": null,
         "weights": [
@@ -22,15 +22,32 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4": {
-        "id": "root_e4",
-        "genalgeb": "e2e4",
-        "gensan": "e4",
-        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "root_d3": {
+        "id": "root_d3",
+        "genalgeb": "d2d3",
+        "gensan": "d3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
         "childids": [
-          "root_e4_e5"
+          "root_d3_f5"
         ],
         "parentid": "root",
+        "weights": [
+          5,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d3_f5": {
+        "id": "root_d3_f5",
+        "genalgeb": "f7f5",
+        "gensan": "f5",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/3P4/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_d3_f5_g3"
+        ],
+        "parentid": "root_d3",
         "weights": [
           0,
           0
@@ -39,13 +56,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_e5": {
-        "id": "root_e4_e5",
-        "genalgeb": "e7e5",
-        "gensan": "e5",
-        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "root_d3_f5_g3": {
+        "id": "root_d3_f5_g3",
+        "genalgeb": "g2g3",
+        "gensan": "g3",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/3P2P1/PPP1PP1P/RNBQKBNR b KQkq - 0 2",
         "childids": [],
-        "parentid": "root_e4",
+        "parentid": "root_d3_f5",
         "weights": [
           0,
           0
@@ -55,7 +72,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_e5",
+    "currentnodeid": "root_d3_f5_g3",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
