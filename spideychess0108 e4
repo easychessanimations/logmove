@@ -10,42 +10,8 @@
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [
-          "root_Nf3"
-        ],
-        "parentid": null,
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_Nf3": {
-        "id": "root_Nf3",
-        "genalgeb": "g1f3",
-        "gensan": "Nf3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
-        "childids": [
-          "root_Nf3_e6"
-        ],
-        "parentid": "root",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_Nf3_e6": {
-        "id": "root_Nf3_e6",
-        "genalgeb": "e7e6",
-        "gensan": "e6",
-        "fen": "rnbqkbnr/pppp1ppp/4p3/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
         "childids": [],
-        "parentid": "root_Nf3",
+        "parentid": null,
         "weights": [
           0,
           0
@@ -55,7 +21,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_Nf3_e6",
+    "currentnodeid": "root",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -70,43 +36,53 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
-      "increment": 2
+      "initial": 20,
+      "increment": 20
     },
     "players": {
       "players": [
         {
+          "id": "david9426_bot",
+          "username": "david9426_bot",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1604720631479,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 1200000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "ayberk2020",
+          "username": "ayberk2020",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1604662094287,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 1200000,
+          "startedThinkingAt": 1604720631480,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1604720631480,
+    "terminatedAt": 1604661564160,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
