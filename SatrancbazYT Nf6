@@ -3,7 +3,7 @@
   "san": "Nf6",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -18,7 +18,7 @@
           0,
           0
         ],
-        "comment": "",
+        "comment": "  ",
         "hasEval": false,
         "eval": null
       },
@@ -79,7 +79,7 @@
         "gensan": "Nc6",
         "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
         "childids": [
-          "root_e4_e5_Nf3_Nc6_Nc3"
+          "root_e4_e5_Nf3_Nc6_Bc4"
         ],
         "parentid": "root_e4_e5_Nf3",
         "weights": [
@@ -90,15 +90,49 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_e5_Nf3_Nc6_Nc3": {
-        "id": "root_e4_e5_Nf3_Nc6_Nc3",
-        "genalgeb": "b1c3",
-        "gensan": "Nc3",
-        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 3",
-        "childids": [],
+      "root_e4_e5_Nf3_Nc6_Bc4": {
+        "id": "root_e4_e5_Nf3_Nc6_Bc4",
+        "genalgeb": "f1c4",
+        "gensan": "Bc4",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bc4_Bc5"
+        ],
         "parentid": "root_e4_e5_Nf3_Nc6",
         "weights": [
-          5,
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bc4_Bc5": {
+        "id": "root_e4_e5_Nf3_Nc6_Bc4_Bc5",
+        "genalgeb": "f8c5",
+        "gensan": "Bc5",
+        "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bc4_Bc5_c3"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Bc4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bc4_Bc5_c3": {
+        "id": "root_e4_e5_Nf3_Nc6_Bc4_Bc5_c3",
+        "genalgeb": "c2c3",
+        "gensan": "c3",
+        "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 0 4",
+        "childids": [],
+        "parentid": "root_e4_e5_Nf3_Nc6_Bc4_Bc5",
+        "weights": [
+          0,
           0
         ],
         "comment": "",
@@ -106,7 +140,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_e5_Nf3_Nc6_Nc3_Nf6_d3",
+    "currentnodeid": "root_e4_e5_Nf3_Nc6_Bc4_Bc5_c3",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
