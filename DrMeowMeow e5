@@ -11,9 +11,26 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e3"
+          "root_e4"
         ],
         "parentid": null,
+        "weights": [
+          5,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4": {
+        "id": "root_e4",
+        "genalgeb": "e2e4",
+        "gensan": "e4",
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_e4_a5"
+        ],
+        "parentid": "root",
         "weights": [
           0,
           0
@@ -22,13 +39,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e3": {
-        "id": "root_e3",
-        "genalgeb": "e2e3",
-        "gensan": "e3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "root_e4_a5": {
+        "id": "root_e4_a5",
+        "genalgeb": "a7a5",
+        "gensan": "a5",
+        "fen": "rnbqkbnr/1ppppppp/8/p7/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
         "childids": [],
-        "parentid": "root",
+        "parentid": "root_e4",
         "weights": [
           0,
           0
@@ -38,7 +55,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e3",
+    "currentnodeid": "root_e4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -54,7 +71,7 @@
     "pgnBody": "*",
     "timecontrol": {
       "initial": 3,
-      "increment": 2
+      "increment": 20
     },
     "players": {
       "players": [
@@ -84,12 +101,14 @@
     },
     "inProgress": false,
     "terminated": false,
-    "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "result": 1,
+    "resultReason": "flagged",
+    "startedAt": 1605053207421,
+    "terminatedAt": 1605053390482,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
