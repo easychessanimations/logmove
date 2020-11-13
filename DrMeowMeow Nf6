@@ -773,8 +773,76 @@
         "genalgeb": "d2d4",
         "gensan": "d4",
         "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_d4_d5"
+        ],
         "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5": {
+        "id": "root_d4_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_d4_d5_e3"
+        ],
+        "parentid": "root_d4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_e3": {
+        "id": "root_d4_d5_e3",
+        "genalgeb": "e2e3",
+        "gensan": "e3",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+        "childids": [
+          "root_d4_d5_e3_c5"
+        ],
+        "parentid": "root_d4_d5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_e3_c5": {
+        "id": "root_d4_d5_e3_c5",
+        "genalgeb": "c7c5",
+        "gensan": "c5",
+        "fen": "rnbqkbnr/pp2pppp/8/2pp4/3P4/4P3/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+        "childids": [
+          "root_d4_d5_e3_c5_Nf3"
+        ],
+        "parentid": "root_d4_d5_e3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_e3_c5_Nf3": {
+        "id": "root_d4_d5_e3_c5_Nf3",
+        "genalgeb": "g1f3",
+        "gensan": "Nf3",
+        "fen": "rnbqkbnr/pp2pppp/8/2pp4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 1 3",
+        "childids": [],
+        "parentid": "root_d4_d5_e3_c5",
         "weights": [
           0,
           0
@@ -784,7 +852,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_d4",
+    "currentnodeid": "root_d4_d5_e3_c5_Nf3",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
