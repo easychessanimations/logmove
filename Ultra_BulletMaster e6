@@ -11,8 +11,7 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_c3",
-          "root_d3"
+          "root_c3"
         ],
         "parentid": null,
         "weights": [
@@ -29,7 +28,7 @@
         "gensan": "c3",
         "fen": "rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
         "childids": [
-          "root_c3_d6"
+          "root_c3_d5"
         ],
         "parentid": "root",
         "weights": [
@@ -40,12 +39,14 @@
         "hasEval": false,
         "eval": null
       },
-      "root_c3_d6": {
-        "id": "root_c3_d6",
-        "genalgeb": "d7d6",
-        "gensan": "d6",
-        "fen": "rnbqkbnr/ppp1pppp/3p4/8/8/2P5/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
-        "childids": [],
+      "root_c3_d5": {
+        "id": "root_c3_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/2P5/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_c3_d5_d4"
+        ],
         "parentid": "root_c3",
         "weights": [
           0,
@@ -55,13 +56,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_d3": {
-        "id": "root_d3",
-        "genalgeb": "d2d3",
-        "gensan": "d3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+      "root_c3_d5_d4": {
+        "id": "root_c3_d5_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/2P5/PP2PPPP/RNBQKBNR b KQkq - 0 2",
         "childids": [],
-        "parentid": "root",
+        "parentid": "root_c3_d5",
         "weights": [
           0,
           0
@@ -71,7 +72,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_d3",
+    "currentnodeid": "root_c3_d5_d4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -86,7 +87,7 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 10,
       "increment": 2
     },
     "players": {
@@ -117,12 +118,14 @@
     },
     "inProgress": false,
     "terminated": false,
-    "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1605187870837,
+    "terminatedAt": 1605188471389,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
