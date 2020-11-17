@@ -3,7 +3,7 @@
   "san": "d5",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -12,7 +12,8 @@
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
           "root_a3",
-          "root_e4"
+          "root_e4",
+          "root_d4"
         ],
         "parentid": null,
         "weights": [
@@ -992,8 +993,57 @@
         "genalgeb": "e4e5",
         "gensan": "e5",
         "fen": "rnbqkb1r/pp1ppppp/2p2n2/4P3/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
-        "childids": [],
+        "childids": [
+          "root_e4_c6_Nf3_Nf6_e5_d5"
+        ],
         "parentid": "root_e4_c6_Nf3_Nf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_c6_Nf3_Nf6_e5_d5": {
+        "id": "root_e4_c6_Nf3_Nf6_e5_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkb1r/pp2pppp/2p2n2/3pP3/8/5N2/PPPP1PPP/RNBQKB1R w KQkq d6 0 4",
+        "childids": [
+          "root_e4_c6_Nf3_Nf6_e5_d5_exf6"
+        ],
+        "parentid": "root_e4_c6_Nf3_Nf6_e5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_c6_Nf3_Nf6_e5_d5_exf6": {
+        "id": "root_e4_c6_Nf3_Nf6_e5_d5_exf6",
+        "genalgeb": "e5f6",
+        "gensan": "exf6",
+        "fen": "rnbqkb1r/pp2pppp/2p2P2/3p4/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 4",
+        "childids": [],
+        "parentid": "root_e4_c6_Nf3_Nf6_e5_d5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
         "weights": [
           0,
           0
@@ -1003,7 +1053,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_c6_Nf3_Nf6_e5",
+    "currentnodeid": "root_d4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
