@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -65,7 +65,8 @@
         "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
         "childids": [
           "root_e4_e5_Nf3_f6",
-          "root_e4_e5_Nf3_d6"
+          "root_e4_e5_Nf3_d6",
+          "root_e4_e5_Nf3_Nf6"
         ],
         "parentid": "root_e4_e5",
         "weights": [
@@ -2269,6 +2270,106 @@
         "fen": "rn3rk1/pb3pp1/8/1pb1p1P1/4N1n1/P2P1Q1N/BPP2Pq1/R3KR2 b Q - 3 15",
         "childids": [],
         "parentid": "root_e4_e5_Bc4_Nf6_d3_Bc5_a3_O-O_Bg5_h6_h4_hxg5_hxg5_d5_exd5_Ng4_Nh3_c6_dxc6_Qb6_Rf1_Qxc6_Nd2_b5_Ba2_Qxg2_Qf3_Bb7",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nf6": {
+        "id": "root_e4_e5_Nf3_Nf6",
+        "genalgeb": "g8f6",
+        "gensan": "Nf6",
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+        "childids": [
+          "root_e4_e5_Nf3_Nf6_Nxe5"
+        ],
+        "parentid": "root_e4_e5_Nf3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nf6_Nxe5": {
+        "id": "root_e4_e5_Nf3_Nf6_Nxe5",
+        "genalgeb": "f3e5",
+        "gensan": "Nxe5",
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+        "childids": [
+          "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4": {
+        "id": "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4",
+        "genalgeb": "f6e4",
+        "gensan": "Nxe4",
+        "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+        "childids": [
+          "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nf6_Nxe5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2": {
+        "id": "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2",
+        "genalgeb": "d1e2",
+        "gensan": "Qe2",
+        "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+        "childids": [
+          "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2_Ng5"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2_Ng5": {
+        "id": "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2_Ng5",
+        "genalgeb": "e4g5",
+        "gensan": "Ng5",
+        "fen": "rnbqkb1r/pppp1ppp/8/4N1n1/8/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5",
+        "childids": [
+          "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2_Ng5_Nc6+"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2_Ng5_Nc6+": {
+        "id": "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2_Ng5_Nc6+",
+        "genalgeb": "e5c6",
+        "gensan": "Nc6+",
+        "fen": "rnbqkb1r/pppp1ppp/2N5/6n1/8/8/PPPPQPPP/RNB1KB1R b KQkq - 3 5",
+        "childids": [],
+        "parentid": "root_e4_e5_Nf3_Nf6_Nxe5_Nxe4_Qe2_Ng5",
         "weights": [
           0,
           0
