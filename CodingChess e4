@@ -2,101 +2,16 @@
   "username": "CodingChess",
   "san": "e4",
   "game": {
-    "variant": "seirawan",
-    "flip": true,
+    "variant": "standard",
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[HEhe] w KQBCDFGkqbcdfg - 0 1",
-        "childids": [
-          "root_e4"
-        ],
-        "parentid": null,
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4": {
-        "id": "root_e4",
-        "genalgeb": "e2e4",
-        "gensan": "e4",
-        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR[HEhe] b KQBCDFGkqbcdfg - 0 1",
-        "childids": [
-          "root_e4_e5"
-        ],
-        "parentid": "root",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5": {
-        "id": "root_e4_e5",
-        "genalgeb": "e7e5",
-        "gensan": "e5",
-        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR[HEhe] w KQBCDFGkqbcdfg - 0 2",
-        "childids": [
-          "root_e4_e5_Nf3"
-        ],
-        "parentid": "root_e4",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5_Nf3": {
-        "id": "root_e4_e5_Nf3",
-        "genalgeb": "g1f3",
-        "gensan": "Nf3",
-        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R[HEhe] b KQBCDFkqbcdfg - 1 2",
-        "childids": [
-          "root_e4_e5_Nf3_d5"
-        ],
-        "parentid": "root_e4_e5",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5_Nf3_d5": {
-        "id": "root_e4_e5_Nf3_d5",
-        "genalgeb": "d7d5",
-        "gensan": "d5",
-        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R[HEhe] w KQBCDFkqbcdfg - 0 3",
-        "childids": [
-          "root_e4_e5_Nf3_d5_exd5"
-        ],
-        "parentid": "root_e4_e5_Nf3",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5_Nf3_d5_exd5": {
-        "id": "root_e4_e5_Nf3_d5_exd5",
-        "genalgeb": "e4d5",
-        "gensan": "exd5",
-        "fen": "rnbqkbnr/ppp2ppp/8/3Pp3/8/5N2/PPPP1PPP/RNBQKB1R[HEhe] b KQBCDFkqbcdfg - 0 3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [],
-        "parentid": "root_e4_e5_Nf3_d5",
+        "parentid": null,
         "weights": [
           0,
           0
@@ -112,17 +27,17 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Seirawan"
+        "Standard"
       ],
       [
         "FEN",
-        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[HEhe] w KQBCDFGkqbcdfg - 0 1"
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
       ]
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 15,
-      "increment": 20
+      "initial": 5,
+      "increment": 1
     },
     "players": {
       "players": [
@@ -152,10 +67,10 @@
     },
     "inProgress": false,
     "terminated": false,
-    "result": 0,
-    "resultReason": "flagged",
-    "startedAt": 1604913686855,
-    "terminatedAt": 1604914586966,
+    "result": 1,
+    "resultReason": "black resigned",
+    "startedAt": 1606229371823,
+    "terminatedAt": 1606229382235,
     "chat": {
       "capacity": 100,
       "messages": []
