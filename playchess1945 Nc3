@@ -3,7 +3,7 @@
   "san": "Nc3",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -240,43 +240,53 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
-      "increment": 2
+      "initial": 15,
+      "increment": 20
     },
     "players": {
       "players": [
         {
+          "id": "playchess1945",
+          "username": "playchess1945",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1606974118777,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "empirerbot",
+          "username": "EmpirerBOT",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1606939415813,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": 1606974118778,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1606974118778,
+    "terminatedAt": 1606907927781,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
