@@ -3,7 +3,7 @@
   "san": "d4",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -11,7 +11,7 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e3"
+          "root_e4"
         ],
         "parentid": null,
         "weights": [
@@ -22,13 +22,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e3": {
-        "id": "root_e3",
-        "genalgeb": "e2e3",
-        "gensan": "e3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "root_e4": {
+        "id": "root_e4",
+        "genalgeb": "e2e4",
+        "gensan": "e4",
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
         "childids": [
-          "root_e3_e5"
+          "root_e4_e5"
         ],
         "parentid": "root",
         "weights": [
@@ -39,13 +39,47 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e3_e5": {
-        "id": "root_e3_e5",
+      "root_e4_e5": {
+        "id": "root_e4_e5",
         "genalgeb": "e7e5",
         "gensan": "e5",
-        "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/4P3/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_e4_e5_Nf3"
+        ],
+        "parentid": "root_e4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3": {
+        "id": "root_e4_e5_Nf3",
+        "genalgeb": "g1f3",
+        "gensan": "Nf3",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6"
+        ],
+        "parentid": "root_e4_e5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6": {
+        "id": "root_e4_e5_Nf3_Nc6",
+        "genalgeb": "b8c6",
+        "gensan": "Nc6",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
         "childids": [],
-        "parentid": "root_e3",
+        "parentid": "root_e4_e5_Nf3",
         "weights": [
           0,
           0
@@ -55,7 +89,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e3_e5",
+    "currentnodeid": "root_e4_e5_Nf3_Nc6",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -70,43 +104,53 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 1,
       "increment": 2
     },
     "players": {
       "players": [
         {
+          "id": "superjerobot",
+          "username": "SuperJeroBot",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1608139497843,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 60000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "chesssalama",
+          "username": "ChessSalama",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1608129667304,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 60000,
+          "startedThinkingAt": 1608139497847,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1608139497847,
+    "terminatedAt": 1608129656214,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
