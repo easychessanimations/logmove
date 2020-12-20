@@ -3,7 +3,7 @@
   "san": "d5",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -11,7 +11,8 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e3"
+          "root_e3",
+          "root_d4"
         ],
         "parentid": null,
         "weights": [
@@ -95,8 +96,91 @@
         "genalgeb": "e3d4",
         "gensan": "exd4",
         "fen": "rnbqkbnr/pppp1ppp/8/8/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
-        "childids": [],
+        "childids": [
+          "root_e3_e5_d4_exd4_exd4_d5"
+        ],
         "parentid": "root_e3_e5_d4_exd4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_e5_d4_exd4_exd4_d5": {
+        "id": "root_e3_e5_d4_exd4_exd4_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/ppp2ppp/8/3p4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+        "childids": [
+          "root_e3_e5_d4_exd4_exd4_d5_Nf3"
+        ],
+        "parentid": "root_e3_e5_d4_exd4_exd4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_e5_d4_exd4_exd4_d5_Nf3": {
+        "id": "root_e3_e5_d4_exd4_exd4_d5_Nf3",
+        "genalgeb": "g1f3",
+        "gensan": "Nf3",
+        "fen": "rnbqkbnr/ppp2ppp/8/3p4/3P4/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 4",
+        "childids": [
+          "root_e3_e5_d4_exd4_exd4_d5_Nf3_Nf6"
+        ],
+        "parentid": "root_e3_e5_d4_exd4_exd4_d5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_e5_d4_exd4_exd4_d5_Nf3_Nf6": {
+        "id": "root_e3_e5_d4_exd4_exd4_d5_Nf3_Nf6",
+        "genalgeb": "g8f6",
+        "gensan": "Nf6",
+        "fen": "rnbqkb1r/ppp2ppp/5n2/3p4/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 2 5",
+        "childids": [
+          "root_e3_e5_d4_exd4_exd4_d5_Nf3_Nf6_Be2"
+        ],
+        "parentid": "root_e3_e5_d4_exd4_exd4_d5_Nf3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_e5_d4_exd4_exd4_d5_Nf3_Nf6_Be2": {
+        "id": "root_e3_e5_d4_exd4_exd4_d5_Nf3_Nf6_Be2",
+        "genalgeb": "f1e2",
+        "gensan": "Be2",
+        "fen": "rnbqkb1r/ppp2ppp/5n2/3p4/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 3 5",
+        "childids": [],
+        "parentid": "root_e3_e5_d4_exd4_exd4_d5_Nf3_Nf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
         "weights": [
           0,
           0
@@ -106,7 +190,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e3_e5_d4_exd4_exd4",
+    "currentnodeid": "root_d4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
