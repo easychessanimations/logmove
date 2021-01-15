@@ -11,7 +11,8 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_f4"
+          "root_f4",
+          "root_e4"
         ],
         "parentid": null,
         "weights": [
@@ -27,8 +28,74 @@
         "genalgeb": "f2f4",
         "gensan": "f4",
         "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_f4_g5"
+        ],
         "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f4_g5": {
+        "id": "root_f4_g5",
+        "genalgeb": "g7g5",
+        "gensan": "g5",
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_f4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4": {
+        "id": "root_e4",
+        "genalgeb": "e2e4",
+        "gensan": "e4",
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_e4_f5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_f5": {
+        "id": "root_e4_f5",
+        "genalgeb": "f7f5",
+        "gensan": "f5",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_e4_f5_exf5"
+        ],
+        "parentid": "root_e4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_f5_exf5": {
+        "id": "root_e4_f5_exf5",
+        "genalgeb": "e4f5",
+        "gensan": "exf5",
+        "fen": "rnbqkbnr/ppppp1pp/8/5P2/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_e4_f5",
         "weights": [
           0,
           0
@@ -38,7 +105,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_f4",
+    "currentnodeid": "root_e4_f5_exf5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
