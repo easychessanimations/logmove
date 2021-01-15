@@ -3,7 +3,7 @@
   "san": "Qg4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -11,9 +11,42 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
+          "root_f4",
           "root_e4"
         ],
         "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f4": {
+        "id": "root_f4",
+        "genalgeb": "f2f4",
+        "gensan": "f4",
+        "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_f4_g5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f4_g5": {
+        "id": "root_f4_g5",
+        "genalgeb": "g7g5",
+        "gensan": "g5",
+        "fen": "rnbqkbnr/pppppp1p/8/6p1/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_f4",
         "weights": [
           0,
           0
@@ -28,7 +61,7 @@
         "gensan": "e4",
         "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
         "childids": [
-          "root_e4_Nc6"
+          "root_e4_f5"
         ],
         "parentid": "root",
         "weights": [
@@ -39,13 +72,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_Nc6": {
-        "id": "root_e4_Nc6",
-        "genalgeb": "b8c6",
-        "gensan": "Nc6",
-        "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+      "root_e4_f5": {
+        "id": "root_e4_f5",
+        "genalgeb": "f7f5",
+        "gensan": "f5",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
         "childids": [
-          "root_e4_Nc6_d3"
+          "root_e4_f5_exf5"
         ],
         "parentid": "root_e4",
         "weights": [
@@ -56,15 +89,15 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_Nc6_d3": {
-        "id": "root_e4_Nc6_d3",
-        "genalgeb": "d2d3",
-        "gensan": "d3",
-        "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+      "root_e4_f5_exf5": {
+        "id": "root_e4_f5_exf5",
+        "genalgeb": "e4f5",
+        "gensan": "exf5",
+        "fen": "rnbqkbnr/ppppp1pp/8/5P2/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
         "childids": [
-          "root_e4_Nc6_d3_e5"
+          "root_e4_f5_exf5_g5"
         ],
-        "parentid": "root_e4_Nc6",
+        "parentid": "root_e4_f5",
         "weights": [
           0,
           0
@@ -73,13 +106,30 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_Nc6_d3_e5": {
-        "id": "root_e4_Nc6_d3_e5",
-        "genalgeb": "e7e5",
-        "gensan": "e5",
-        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/3P4/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "root_e4_f5_exf5_g5": {
+        "id": "root_e4_f5_exf5_g5",
+        "genalgeb": "g7g5",
+        "gensan": "g5",
+        "fen": "rnbqkbnr/ppppp2p/8/5Pp1/8/8/PPPP1PPP/RNBQKBNR w KQkq g6 0 3",
+        "childids": [
+          "root_e4_f5_exf5_g5_Qh5#"
+        ],
+        "parentid": "root_e4_f5_exf5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_f5_exf5_g5_Qh5#": {
+        "id": "root_e4_f5_exf5_g5_Qh5#",
+        "genalgeb": "d1h5",
+        "gensan": "Qh5#",
+        "fen": "rnbqkbnr/ppppp2p/8/5PpQ/8/8/PPPP1PPP/RNB1KBNR b KQkq - 1 3",
         "childids": [],
-        "parentid": "root_e4_Nc6_d3",
+        "parentid": "root_e4_f5_exf5_g5",
         "weights": [
           0,
           0
@@ -89,7 +139,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_Nc6_d3_e5",
+    "currentnodeid": "root_e4_f5_exf5_g5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -104,8 +154,8 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 5,
-      "increment": 5
+      "initial": 3,
+      "increment": 2
     },
     "players": {
       "players": [
@@ -135,14 +185,12 @@
     },
     "inProgress": false,
     "terminated": false,
-    "result": 0,
-    "resultReason": "white resigned",
-    "startedAt": 1607618927375,
-    "terminatedAt": 1607618948787,
+    "resultReason": "in progress",
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
