@@ -14,7 +14,8 @@
           "root_c4",
           "root_Nf3",
           "root_e4",
-          "root_d4"
+          "root_d4",
+          "root_Nc3"
         ],
         "parentid": null,
         "weights": [
@@ -2074,8 +2075,57 @@
         "genalgeb": "e7e6",
         "gensan": "e6",
         "fen": "r1bqkbnr/ppp2ppp/2n1p3/3p4/8/1P3N2/PBPPPPPP/RN1QKB1R w KQkq - 0 4",
-        "childids": [],
+        "childids": [
+          "root_Nf3_d5_b3_Nc6_Bb2_e6_e3"
+        ],
         "parentid": "root_Nf3_d5_b3_Nc6_Bb2",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nf3_d5_b3_Nc6_Bb2_e6_e3": {
+        "id": "root_Nf3_d5_b3_Nc6_Bb2_e6_e3",
+        "genalgeb": "e2e3",
+        "gensan": "e3",
+        "fen": "r1bqkbnr/ppp2ppp/2n1p3/3p4/8/1P2PN2/PBPP1PPP/RN1QKB1R b KQkq - 0 4",
+        "childids": [],
+        "parentid": "root_Nf3_d5_b3_Nc6_Bb2_e6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nc3": {
+        "id": "root_Nc3",
+        "genalgeb": "b1c3",
+        "gensan": "Nc3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+        "childids": [
+          "root_Nc3_d5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nc3_d5": {
+        "id": "root_Nc3_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/2N5/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_Nc3",
         "weights": [
           0,
           0
@@ -2085,7 +2135,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_Nf3_d5_b3_Nc6_Bb2_e6",
+    "currentnodeid": "root_Nc3_d5",
     "animations": [],
     "selectedAnimation": null,
     "animationDescriptors": {},
