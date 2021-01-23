@@ -11,9 +11,9 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_c4",
           "root_Nc3",
           "root_Nf3",
+          "root_c4",
           "root_e4",
           "root_d4",
           "root_b3",
@@ -51,7 +51,7 @@
         ],
         "parentid": "root",
         "weights": [
-          10,
+          5,
           0
         ],
         "comment": "",
@@ -85,8 +85,8 @@
         ],
         "parentid": "root_c4_Nf6",
         "weights": [
-          5,
-          0
+          0,
+          5
         ],
         "comment": "",
         "hasEval": false,
@@ -102,7 +102,7 @@
         ],
         "parentid": "root_c4_Nf6_Nc3",
         "weights": [
-          0,
+          5,
           0
         ],
         "comment": "",
@@ -374,8 +374,8 @@
         ],
         "parentid": "root",
         "weights": [
-          5,
-          0
+          0,
+          5
         ],
         "comment": "",
         "hasEval": false,
@@ -791,6 +791,7 @@
         "gensan": "c4",
         "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
         "childids": [
+          "root_d4_Nf6_c4_e5",
           "root_d4_Nf6_c4_g6"
         ],
         "parentid": "root_d4_Nf6",
@@ -812,7 +813,7 @@
         ],
         "parentid": "root_d4_Nf6_c4",
         "weights": [
-          0,
+          5,
           0
         ],
         "comment": "",
@@ -1179,7 +1180,7 @@
         "parentid": "root_e4_d5",
         "weights": [
           0,
-          0
+          5
         ],
         "comment": "",
         "hasEval": false,
@@ -1195,7 +1196,7 @@
         ],
         "parentid": "root_e4_d5_exd5",
         "weights": [
-          0,
+          5,
           0
         ],
         "comment": "",
@@ -2306,9 +2307,24 @@
         "comment": "",
         "hasEval": false,
         "eval": null
+      },
+      "root_d4_Nf6_c4_e5": {
+        "id": "root_d4_Nf6_c4_e5",
+        "genalgeb": "e7e5",
+        "gensan": "e5",
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_d4_Nf6_c4",
+        "weights": [
+          5,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
       }
     },
-    "currentnodeid": "root_d4_Nf6_c4",
+    "currentnodeid": "root_e4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
