@@ -1,0 +1,131 @@
+{
+  "username": "GrAnDbOt",
+  "san": "Sf5",
+  "game": {
+    "variant": "eightpiece",
+    "flip": false,
+    "gamenodes": {
+      "root": {
+        "id": "root",
+        "genalgeb": null,
+        "gensan": null,
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+        "childids": [
+          "root_d4"
+        ],
+        "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "jlsesqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/JLneSQKBNR b KQkq - 0 1 -",
+        "childids": [
+          "root_d4_d5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5": {
+        "id": "root_d4_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "jlsesqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/JLneSQKBNR w KQkq - 0 2 -",
+        "childids": [
+          "root_d4_d5_Sf4"
+        ],
+        "parentid": "root_d4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Sf4": {
+        "id": "root_d4_d5_Sf4",
+        "genalgeb": "c1f4",
+        "gensan": "Sf4",
+        "fen": "jlsesqkbnr/ppp1pppp/8/3p4/3P1S2/8/PPP1PPPP/JLne1QKBNR b KQkq - 1 2 -",
+        "childids": [],
+        "parentid": "root_d4_d5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      }
+    },
+    "currentnodeid": "root_d4_d5_Sf4",
+    "animations": [],
+    "animationDescriptors": {},
+    "pgnHeaders": [
+      [
+        "Variant",
+        "Eightpiece"
+      ],
+      [
+        "FEN",
+        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+      ]
+    ],
+    "pgnBody": "*",
+    "timecontrol": {
+      "initial": 15,
+      "increment": 20
+    },
+    "players": {
+      "players": [
+        {
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 0,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        },
+        {
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 1,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        }
+      ]
+    },
+    "inProgress": false,
+    "terminated": false,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1611945129497,
+    "terminatedAt": 1611946030412,
+    "chat": {
+      "capacity": 100,
+      "messages": []
+    },
+    "playerSeatedAfterTermination": false
+  }
+}
