@@ -2,16 +2,50 @@
   "username": "Danger_Bot",
   "san": "e4",
   "game": {
-    "variant": "seirawan",
-    "flip": true,
+    "variant": "standard",
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[HEhe] w KQBCDFGkqbcdfg - 0 1",
-        "childids": [],
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "childids": [
+          "root_Nh3"
+        ],
         "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nh3": {
+        "id": "root_Nh3",
+        "genalgeb": "g1h3",
+        "gensan": "Nh3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "childids": [
+          "root_Nh3_f5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nh3_f5": {
+        "id": "root_Nh3_f5",
+        "genalgeb": "f7f5",
+        "gensan": "f5",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_Nh3",
         "weights": [
           0,
           0
@@ -27,57 +61,49 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Seirawan"
+        "Standard"
       ],
       [
         "FEN",
-        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR[HEhe] w KQBCDFGkqbcdfg - 0 1"
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
       ]
     ],
     "pgnBody": "*",
     "timecontrol": {
       "initial": 15,
-      "increment": 20
+      "increment": 10
     },
     "players": {
       "players": [
         {
-          "id": "danger_bot",
-          "username": "Danger_Bot",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1606208995885,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 900000,
-          "startedThinkingAt": null,
-          "offerDraw": true
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "arka_anumasa",
-          "username": "arka_anumasa",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1606196762988,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 900000,
-          "startedThinkingAt": 1606208995887,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1606208995887,
+    "result": 1,
+    "resultReason": "black resigned",
+    "startedAt": 1606181284826,
     "terminatedAt": 1606181306559,
     "chat": {
       "capacity": 100,
