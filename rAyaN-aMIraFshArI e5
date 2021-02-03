@@ -2,14 +2,14 @@
   "username": "rAyaN-aMIraFshArI",
   "san": "e5",
   "game": {
-    "variant": "standard",
+    "variant": "eightpiece",
     "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
         "childids": [
           "root_e4"
         ],
@@ -26,7 +26,7 @@
         "id": "root_e4",
         "genalgeb": "e2e4",
         "gensan": "e4",
-        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "fen": "jlsesqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/JLneSQKBNR b KQkq - 0 1 -",
         "childids": [],
         "parentid": "root",
         "weights": [
@@ -44,58 +44,50 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Standard"
+        "Eightpiece"
       ],
       [
         "FEN",
-        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
       ]
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 15,
-      "increment": 20
+      "initial": 3,
+      "increment": 8
     },
     "players": {
       "players": [
         {
-          "id": "satranczekas1",
-          "username": "SatrancZekas1",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1610642191141,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 900000,
-          "startedThinkingAt": 1610654795800,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "rayan-amirafshari",
-          "username": "rAyaN-aMIraFshArI",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1610654792156,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 916415,
-          "startedThinkingAt": 1610654792158,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1610654792158,
-    "terminatedAt": 1610639499190,
+    "result": 1,
+    "resultReason": "black resigned",
+    "startedAt": 1612359931278,
+    "terminatedAt": 1612360111852,
     "chat": {
       "capacity": 100,
       "messages": []
