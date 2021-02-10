@@ -2,14 +2,14 @@
   "username": "sithum_2007-07-23",
   "san": "d5",
   "game": {
-    "variant": "standard",
+    "variant": "eightpiece",
     "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
         "childids": [
           "root_d4"
         ],
@@ -26,7 +26,7 @@
         "id": "root_d4",
         "genalgeb": "d2d4",
         "gensan": "d4",
-        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "fen": "jlsesqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/JLneSQKBNR b KQkq - 0 1 -",
         "childids": [],
         "parentid": "root",
         "weights": [
@@ -44,11 +44,11 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Standard"
+        "Eightpiece"
       ],
       [
         "FEN",
-        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
       ]
     ],
     "pgnBody": "*",
@@ -59,37 +59,47 @@
     "players": {
       "players": [
         {
+          "id": "youtube-bot",
+          "username": "youtube-bot",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1612954282784,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 180000,
+          "startedThinkingAt": 1612970134978,
+          "offerDraw": false
         },
         {
+          "id": "sithum_2007-07-23",
+          "username": "sithum_2007-07-23",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1612970129138,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 176411,
+          "startedThinkingAt": 1612970129141,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1612970129141,
+    "terminatedAt": 1612897004745,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
