@@ -2,16 +2,16 @@
   "username": "ayaan_goel",
   "san": "Nf3",
   "game": {
-    "variant": "standard",
+    "variant": "eightpiece",
     "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
         "childids": [
-          "root_e4"
+          "root_d4"
         ],
         "parentid": null,
         "weights": [
@@ -22,13 +22,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4": {
-        "id": "root_e4",
-        "genalgeb": "e2e4",
-        "gensan": "e4",
-        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "jlsesqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/JLneSQKBNR b KQkq - 0 1 -",
         "childids": [
-          "root_e4_e5"
+          "root_d4_e6"
         ],
         "parentid": "root",
         "weights": [
@@ -39,13 +39,47 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_e5": {
-        "id": "root_e4_e5",
-        "genalgeb": "e7e5",
-        "gensan": "e5",
-        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "root_d4_e6": {
+        "id": "root_d4_e6",
+        "genalgeb": "e7e6",
+        "gensan": "e6",
+        "fen": "jlsesqkbnr/pppp1ppp/4p3/8/3P4/8/PPP1PPPP/JLneSQKBNR w KQkq - 0 2 -",
+        "childids": [
+          "root_d4_e6_e4"
+        ],
+        "parentid": "root_d4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_e6_e4": {
+        "id": "root_d4_e6_e4",
+        "genalgeb": "e2e4",
+        "gensan": "e4",
+        "fen": "jlsesqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/JLneSQKBNR b KQkq - 0 2 -",
+        "childids": [
+          "root_d4_e6_e4_Qf6"
+        ],
+        "parentid": "root_d4_e6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_e6_e4_Qf6": {
+        "id": "root_d4_e6_e4_Qf6",
+        "genalgeb": "d8f6",
+        "gensan": "Qf6",
+        "fen": "jlses1kbnr/pppp1ppp/4pq2/8/3PP3/8/PPP2PPP/JLneSQKBNR w KQkq - 1 3 -",
         "childids": [],
-        "parentid": "root_e4",
+        "parentid": "root_d4_e6_e4",
         "weights": [
           0,
           0
@@ -55,17 +89,17 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_e5",
+    "currentnodeid": "root_d4_e6_e4_Qf6",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
       [
         "Variant",
-        "Standard"
+        "Eightpiece"
       ],
       [
         "FEN",
-        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
       ]
     ],
     "pgnBody": "*",
@@ -101,12 +135,32 @@
     },
     "inProgress": false,
     "terminated": false,
-    "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "result": 1,
+    "resultReason": "flagged",
+    "startedAt": 1612970129141,
+    "terminatedAt": 1612970315073,
     "chat": {
       "capacity": 100,
-      "messages": []
-    }
+      "messages": [
+        {
+          "author": {
+            "id": "sithum_2007-07-23",
+            "username": "sithum_2007-07-23",
+            "provider": "lichess",
+            "glicko": {
+              "rating": 1500,
+              "rd": 250
+            },
+            "seated": false,
+            "seatedAt": null,
+            "index": 0,
+            "thinkingTime": 0,
+            "startedThinkingAt": null
+          },
+          "msg": "i want to go"
+        }
+      ]
+    },
+    "playerSeatedAfterTermination": false
   }
 }
