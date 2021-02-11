@@ -3,7 +3,7 @@
   "san": "e6",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -59,35 +59,43 @@
     "players": {
       "players": [
         {
+          "id": "schessnoob",
+          "username": "sChessNoob",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1613076129353,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": 1613076171300,
+          "offerDraw": false
         },
         {
+          "id": "threepeatmvp",
+          "username": "ThreePeatMVP",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1613076161757,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 910489,
+          "startedThinkingAt": 1613076161763,
+          "offerDraw": true
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
-    "result": 1,
-    "resultReason": "black resigned",
-    "startedAt": 1597568274891,
-    "terminatedAt": 1597568334902,
+    "result": null,
+    "resultReason": "in progress",
+    "startedAt": 1613076161758,
+    "terminatedAt": 1613076102996,
     "chat": {
       "capacity": 100,
       "messages": []
