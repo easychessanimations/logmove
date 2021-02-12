@@ -2,7 +2,7 @@
   "username": "Burneed",
   "san": "e4",
   "game": {
-    "variant": "standard",
+    "variant": "atomic",
     "flip": false,
     "gamenodes": {
       "root": {
@@ -27,7 +27,7 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Standard"
+        "Atomic"
       ],
       [
         "FEN",
@@ -36,43 +36,53 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 1,
       "increment": 2
     },
     "players": {
       "players": [
         {
+          "id": "redhorse234",
+          "username": "RedHorse234",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1613133018761,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 60000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "burneed",
+          "username": "Burneed",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1613150490433,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 60000,
+          "startedThinkingAt": 1613150490439,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1613150490439,
+    "terminatedAt": 1613132807227,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
