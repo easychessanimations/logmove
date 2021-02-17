@@ -10,8 +10,42 @@
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_f3"
+        ],
         "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f3": {
+        "id": "root_f3",
+        "genalgeb": "f2f3",
+        "gensan": "f3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_f3_c5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f3_c5": {
+        "id": "root_f3_c5",
+        "genalgeb": "c7c5",
+        "gensan": "c5",
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_f3",
         "weights": [
           0,
           0
@@ -21,7 +55,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root",
+    "currentnodeid": "root_f3_c5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -37,40 +71,48 @@
     "pgnBody": "*",
     "timecontrol": {
       "initial": 15,
-      "increment": 20
+      "increment": 10
     },
     "players": {
       "players": [
         {
+          "id": "addingmagicbot",
+          "username": "AddingMagicBOT",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1613578871883,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "turkishbot1",
+          "username": "Turkishbot1",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1613579553621,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": 1613579553628,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
-    "result": 1,
-    "resultReason": "black resigned",
-    "startedAt": 1613126863379,
-    "terminatedAt": 1613126881852,
+    "result": null,
+    "resultReason": "in progress",
+    "startedAt": 1613579553627,
+    "terminatedAt": 1613575319252,
     "chat": {
       "capacity": 100,
       "messages": []
