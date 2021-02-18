@@ -2,7 +2,7 @@
   "username": "PRO-BARIS",
   "san": "Nf3",
   "game": {
-    "variant": "standard",
+    "variant": "atomic",
     "flip": false,
     "gamenodes": {
       "root": {
@@ -27,7 +27,7 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Standard"
+        "Atomic"
       ],
       [
         "FEN",
@@ -36,43 +36,71 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
-      "increment": 2
+      "initial": 5,
+      "increment": 3
     },
     "players": {
       "players": [
         {
+          "id": "hyperchessbotauthor",
+          "username": "hyperchessbotauthor",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1613652937212,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 300000,
+          "startedThinkingAt": null,
+          "offerDraw": true
         },
         {
+          "id": "death_is_for-all",
+          "username": "Death_is_for-all",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1613653038191,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 300000,
+          "startedThinkingAt": 1613653038192,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1613653038192,
+    "terminatedAt": 1613652911720,
     "chat": {
       "capacity": 100,
-      "messages": []
-    }
+      "messages": [
+        {
+          "author": {
+            "id": "hyperchessbotauthor",
+            "username": "hyperchessbotauthor",
+            "provider": "lichess",
+            "glicko": {
+              "rating": 1500,
+              "rd": 250
+            },
+            "seated": false,
+            "seatedAt": null,
+            "index": 0,
+            "thinkingTime": 0,
+            "startedThinkingAt": null
+          },
+          "msg": "try  <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://hypereasy.herokuapp.com\">Hyper Easy</a> ,  it is a bot in the browser like easychess, but it can play <b>all variants</b> and uses <b>multi threaded</b> Stockfish WASM, if you want a <b>permanent bot<b> in the cloud, then check out <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/hyperchessbot/hyperbot\">Hyper Bot</a> , no local installation is needed, only a few steps that can be done online"
+        }
+      ]
+    },
+    "playerSeatedAfterTermination": false
   }
 }
