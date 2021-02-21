@@ -2,7 +2,7 @@
   "username": "henrybon1",
   "san": "e4",
   "game": {
-    "variant": "atomic",
+    "variant": "standard",
     "flip": false,
     "gamenodes": {
       "root": {
@@ -10,8 +10,76 @@
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_Nf3"
+        ],
         "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nf3": {
+        "id": "root_Nf3",
+        "genalgeb": "g1f3",
+        "gensan": "Nf3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "childids": [
+          "root_Nf3_Nf6"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nf3_Nf6": {
+        "id": "root_Nf3_Nf6",
+        "genalgeb": "g8f6",
+        "gensan": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+        "childids": [
+          "root_Nf3_Nf6_Nc3"
+        ],
+        "parentid": "root_Nf3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nf3_Nf6_Nc3": {
+        "id": "root_Nf3_Nf6_Nc3",
+        "genalgeb": "b1c3",
+        "gensan": "Nc3",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 3 2",
+        "childids": [
+          "root_Nf3_Nf6_Nc3_Nc6"
+        ],
+        "parentid": "root_Nf3_Nf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nf3_Nf6_Nc3_Nc6": {
+        "id": "root_Nf3_Nf6_Nc3_Nc6",
+        "genalgeb": "b8c6",
+        "gensan": "Nc6",
+        "fen": "r1bqkb1r/pppppppp/2n2n2/8/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 4 3",
+        "childids": [],
+        "parentid": "root_Nf3_Nf6_Nc3",
         "weights": [
           0,
           0
@@ -21,13 +89,13 @@
         "eval": null
       }
     },
-    "currentnodeid": "root",
+    "currentnodeid": "root_Nf3_Nf6_Nc3_Nc6",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
       [
         "Variant",
-        "Atomic"
+        "Standard"
       ],
       [
         "FEN",
@@ -36,8 +104,8 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 5,
-      "increment": 3
+      "initial": 25,
+      "increment": 2
     },
     "players": {
       "players": [
@@ -69,15 +137,15 @@
     "terminated": false,
     "result": 1,
     "resultReason": "black resigned",
-    "startedAt": 1613653038192,
-    "terminatedAt": 1613653187763,
+    "startedAt": 1613779515915,
+    "terminatedAt": 1613779552059,
     "chat": {
       "capacity": 100,
       "messages": [
         {
           "author": {
-            "id": "hyperchessbotauthor",
-            "username": "hyperchessbotauthor",
+            "id": "uwbt",
+            "username": "UWBT",
             "provider": "lichess",
             "glicko": {
               "rating": 1500,
@@ -89,7 +157,7 @@
             "thinkingTime": 0,
             "startedThinkingAt": null
           },
-          "msg": "try  <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://hypereasy.herokuapp.com\">Hyper Easy</a> ,  it is a bot in the browser like easychess, but it can play <b>all variants</b> and uses <b>multi threaded</b> Stockfish WASM, if you want a <b>permanent bot<b> in the cloud, then check out <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/hyperchessbot/hyperbot\">Hyper Bot</a> , no local installation is needed, only a few steps that can be done online"
+          "msg": "Dude, are you going to move?"
         }
       ]
     },
