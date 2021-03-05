@@ -2,7 +2,7 @@
   "username": "JVbot",
   "san": "Bb5",
   "game": {
-    "variant": "atomic",
+    "variant": "standard",
     "flip": false,
     "gamenodes": {
       "root": {
@@ -66,7 +66,7 @@
         ],
         "parentid": "root_e4_e5",
         "weights": [
-          10,
+          0,
           0
         ],
         "comment": "",
@@ -78,42 +78,8 @@
         "genalgeb": "b8c6",
         "gensan": "Nc6",
         "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
-        "childids": [
-          "root_e4_e5_Nf3_Nc6_Nc3"
-        ],
-        "parentid": "root_e4_e5_Nf3",
-        "weights": [
-          2,
-          3
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5_Nf3_Nc6_Nc3": {
-        "id": "root_e4_e5_Nf3_Nc6_Nc3",
-        "genalgeb": "b1c3",
-        "gensan": "Nc3",
-        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 3",
-        "childids": [
-          "root_e4_e5_Nf3_Nc6_Nc3_Nf6"
-        ],
-        "parentid": "root_e4_e5_Nf3_Nc6",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5_Nf3_Nc6_Nc3_Nf6": {
-        "id": "root_e4_e5_Nf3_Nc6_Nc3_Nf6",
-        "genalgeb": "g8f6",
-        "gensan": "Nf6",
-        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 4 4",
         "childids": [],
-        "parentid": "root_e4_e5_Nf3_Nc6_Nc3",
+        "parentid": "root_e4_e5_Nf3",
         "weights": [
           0,
           0
@@ -123,13 +89,13 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_e5_Nf3_Nc6_Nc3_Nf6",
+    "currentnodeid": "root_e4_e5_Nf3_Nc6",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
       [
         "Variant",
-        "Atomic"
+        "Standard"
       ],
       [
         "FEN",
@@ -138,8 +104,8 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 1,
-      "increment": 2
+      "initial": 15,
+      "increment": 20
     },
     "players": {
       "players": [
@@ -169,48 +135,13 @@
     },
     "inProgress": false,
     "terminated": false,
-    "result": 1,
+    "result": 0,
     "resultReason": "flagged",
-    "startedAt": 1614957140960,
-    "terminatedAt": 1614957206109,
+    "startedAt": 1614941193137,
+    "terminatedAt": 1614942093439,
     "chat": {
       "capacity": 100,
-      "messages": [
-        {
-          "author": {
-            "id": "jvbot",
-            "username": "JVbot",
-            "provider": "lichess",
-            "glicko": {
-              "rating": 1500,
-              "rd": 250
-            },
-            "seated": false,
-            "seatedAt": null,
-            "index": 0,
-            "thinkingTime": 0,
-            "startedThinkingAt": null
-          },
-          "msg": "me bot"
-        },
-        {
-          "author": {
-            "id": "jvbot",
-            "username": "JVbot",
-            "provider": "lichess",
-            "glicko": {
-              "rating": 1500,
-              "rd": 250
-            },
-            "seated": false,
-            "seatedAt": null,
-            "index": 0,
-            "thinkingTime": 0,
-            "startedThinkingAt": null
-          },
-          "msg": "hi"
-        }
-      ]
+      "messages": []
     },
     "playerSeatedAfterTermination": false
   }
