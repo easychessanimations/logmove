@@ -2,7 +2,7 @@
   "username": "JVbot",
   "san": "e4",
   "game": {
-    "variant": "atomic",
+    "variant": "standard",
     "flip": false,
     "gamenodes": {
       "root": {
@@ -27,7 +27,7 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Atomic"
+        "Standard"
       ],
       [
         "FEN",
@@ -36,48 +36,40 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 1,
-      "increment": 2
+      "initial": 15,
+      "increment": 20
     },
     "players": {
       "players": [
         {
-          "id": "jeddycoco12345",
-          "username": "JEDDYCOCO12345",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1614956827057,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 60000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "jvbot",
-          "username": "JVbot",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1614957140957,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 60000,
-          "startedThinkingAt": 1614957140960,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1614957140960,
+    "result": 0,
+    "resultReason": "white resigned",
+    "startedAt": 1614955102006,
     "terminatedAt": 1614955632242,
     "chat": {
       "capacity": 100,
