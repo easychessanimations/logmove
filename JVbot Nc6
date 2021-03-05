@@ -2,7 +2,7 @@
   "username": "JVbot",
   "san": "Nc6",
   "game": {
-    "variant": "atomic",
+    "variant": "standard",
     "flip": false,
     "gamenodes": {
       "root": {
@@ -61,28 +61,11 @@
         "genalgeb": "g1f3",
         "gensan": "Nf3",
         "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
-        "childids": [
-          "root_e4_e5_Nf3_Nc6"
-        ],
+        "childids": [],
         "parentid": "root_e4_e5",
         "weights": [
-          10,
+          0,
           0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5_Nf3_Nc6": {
-        "id": "root_e4_e5_Nf3_Nc6",
-        "genalgeb": "b8c6",
-        "gensan": "Nc6",
-        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
-        "childids": [],
-        "parentid": "root_e4_e5_Nf3",
-        "weights": [
-          2,
-          3
         ],
         "comment": "",
         "hasEval": false,
@@ -95,7 +78,7 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Atomic"
+        "Standard"
       ],
       [
         "FEN",
@@ -104,8 +87,8 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 1,
-      "increment": 2
+      "initial": 15,
+      "increment": 20
     },
     "players": {
       "players": [
@@ -135,48 +118,13 @@
     },
     "inProgress": false,
     "terminated": false,
-    "result": 1,
+    "result": 0,
     "resultReason": "flagged",
-    "startedAt": 1614957140960,
-    "terminatedAt": 1614957206109,
+    "startedAt": 1614941193137,
+    "terminatedAt": 1614942093439,
     "chat": {
       "capacity": 100,
-      "messages": [
-        {
-          "author": {
-            "id": "jvbot",
-            "username": "JVbot",
-            "provider": "lichess",
-            "glicko": {
-              "rating": 1500,
-              "rd": 250
-            },
-            "seated": false,
-            "seatedAt": null,
-            "index": 0,
-            "thinkingTime": 0,
-            "startedThinkingAt": null
-          },
-          "msg": "me bot"
-        },
-        {
-          "author": {
-            "id": "jvbot",
-            "username": "JVbot",
-            "provider": "lichess",
-            "glicko": {
-              "rating": 1500,
-              "rd": 250
-            },
-            "seated": false,
-            "seatedAt": null,
-            "index": 0,
-            "thinkingTime": 0,
-            "startedThinkingAt": null
-          },
-          "msg": "hi"
-        }
-      ]
+      "messages": []
     },
     "playerSeatedAfterTermination": false
   }
