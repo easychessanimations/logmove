@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -28,7 +28,8 @@
         "gensan": "f3",
         "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
         "childids": [
-          "root_f3_c5"
+          "root_f3_c5",
+          "root_f3_d5"
         ],
         "parentid": "root",
         "weights": [
@@ -44,6 +45,55 @@
         "genalgeb": "c7c5",
         "gensan": "c5",
         "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_f3_c5_e4"
+        ],
+        "parentid": "root_f3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f3_c5_e4": {
+        "id": "root_f3_c5_e4",
+        "genalgeb": "e2e4",
+        "gensan": "e4",
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5P2/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+        "childids": [
+          "root_f3_c5_e4_d5"
+        ],
+        "parentid": "root_f3_c5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f3_c5_e4_d5": {
+        "id": "root_f3_c5_e4_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/pp2pppp/8/2pp4/4P3/5P2/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_f3_c5_e4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f3_d5": {
+        "id": "root_f3_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
         "childids": [],
         "parentid": "root_f3",
         "weights": [
@@ -55,7 +105,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_f3_c5",
+    "currentnodeid": "root_f3_d5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
