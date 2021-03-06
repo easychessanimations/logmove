@@ -2,50 +2,16 @@
   "username": "rAyaN-aMIraFshArI",
   "san": "d4",
   "game": {
-    "variant": "eightpiece",
-    "flip": false,
+    "variant": "standard",
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
-        "childids": [
-          "root_e4"
-        ],
-        "parentid": null,
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4": {
-        "id": "root_e4",
-        "genalgeb": "e2e4",
-        "gensan": "e4",
-        "fen": "jlsesqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/JLneSQKBNR b KQkq - 0 1 -",
-        "childids": [
-          "root_e4_e5"
-        ],
-        "parentid": "root",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5": {
-        "id": "root_e4_e5",
-        "genalgeb": "e7e5",
-        "gensan": "e5",
-        "fen": "jlsesqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/JLneSQKBNR w KQkq - 0 2 -",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [],
-        "parentid": "root_e4",
+        "parentid": null,
         "weights": [
           0,
           0
@@ -55,56 +21,64 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_e5",
+    "currentnodeid": "root",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
       [
         "Variant",
-        "Eightpiece"
+        "Standard"
       ],
       [
         "FEN",
-        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
       ]
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
-      "increment": 8
+      "initial": 6,
+      "increment": 1
     },
     "players": {
       "players": [
         {
+          "id": "rayan-amirafshari",
+          "username": "rAyaN-aMIraFshArI",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1615016064748,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 360000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "sauwkhamari",
+          "username": "sauwkhamari",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1615003682427,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 360000,
+          "startedThinkingAt": 1615016064750,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
-    "result": 1,
-    "resultReason": "black resigned",
-    "startedAt": 1612359931278,
-    "terminatedAt": 1612360111852,
+    "result": null,
+    "resultReason": "in progress",
+    "startedAt": 1615016064750,
+    "terminatedAt": 1614987873080,
     "chat": {
       "capacity": 100,
       "messages": []
