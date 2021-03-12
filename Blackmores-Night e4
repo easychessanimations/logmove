@@ -3,17 +3,98 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_a3",
+          "root_a4",
+          "root_b3",
+          "root_b4",
+          "root_e4"
+        ],
         "parentid": null,
         "weights": [
           0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3": {
+        "id": "root_a3",
+        "genalgeb": "a2a3",
+        "gensan": "a3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          10,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a4": {
+        "id": "root_a4",
+        "genalgeb": "a2a4",
+        "gensan": "a4",
+        "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          10,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_b3": {
+        "id": "root_b3",
+        "genalgeb": "b2b3",
+        "gensan": "b3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          10,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_b4": {
+        "id": "root_b4",
+        "genalgeb": "b2b4",
+        "gensan": "b4",
+        "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          10,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4": {
+        "id": "root_e4",
+        "genalgeb": "e2e4",
+        "gensan": "e4",
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          10,
           0
         ],
         "comment": "",
@@ -42,42 +123,34 @@
     "players": {
       "players": [
         {
-          "id": "blackmores-night",
-          "username": "Blackmores-Night",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1615579366900,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 180000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "cowboy_time",
-          "username": "Cowboy_Time",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1615578899313,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 180000,
-          "startedThinkingAt": 1615579366902,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1615579366902,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1615573763797,
     "terminatedAt": 1615573944769,
     "chat": {
       "capacity": 100,
