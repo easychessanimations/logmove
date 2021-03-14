@@ -11,7 +11,7 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e3"
+          "root_d4"
         ],
         "parentid": null,
         "weights": [
@@ -22,11 +22,11 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e3": {
-        "id": "root_e3",
-        "genalgeb": "e2e3",
-        "gensan": "e3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
         "childids": [],
         "parentid": "root",
         "weights": [
@@ -38,7 +38,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e3",
+    "currentnodeid": "root_d4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -59,37 +59,47 @@
     "players": {
       "players": [
         {
+          "id": "king_mb2009",
+          "username": "King_mb2009",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1615711107368,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 180000,
+          "startedThinkingAt": 1615712549437,
+          "offerDraw": false
         },
         {
+          "id": "chess-nnn",
+          "username": "chess-NNN",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1615712545550,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 178123,
+          "startedThinkingAt": 1615712545551,
+          "offerDraw": true
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1615712545551,
+    "terminatedAt": 1615685766558,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
