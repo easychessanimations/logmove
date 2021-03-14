@@ -3,7 +3,7 @@
   "san": "e3",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -62,7 +62,8 @@
         "gensan": "Bxb5",
         "fen": "rnbqkbnr/p1pppppp/8/1B6/8/4P3/PPPP1PPP/RNBQK1NR b KQkq - 0 2",
         "childids": [
-          "root_e3_b5_Bxb5_Bb7"
+          "root_e3_b5_Bxb5_Bb7",
+          "root_e3_b5_Bxb5_e6"
         ],
         "parentid": "root_e3_b5",
         "weights": [
@@ -102,6 +103,55 @@
           0
         ],
         "comment": "Bxg2",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_b5_Bxb5_e6": {
+        "id": "root_e3_b5_Bxb5_e6",
+        "genalgeb": "e7e6",
+        "gensan": "e6",
+        "fen": "rnbqkbnr/p1pp1ppp/4p3/1B6/8/4P3/PPPP1PPP/RNBQK1NR w KQkq - 0 3",
+        "childids": [
+          "root_e3_b5_Bxb5_e6_Bxd7+"
+        ],
+        "parentid": "root_e3_b5_Bxb5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_b5_Bxb5_e6_Bxd7+": {
+        "id": "root_e3_b5_Bxb5_e6_Bxd7+",
+        "genalgeb": "b5d7",
+        "gensan": "Bxd7+",
+        "fen": "rnbqkbnr/p1pB1ppp/4p3/8/8/4P3/PPPP1PPP/RNBQK1NR b KQkq - 0 3",
+        "childids": [
+          "root_e3_b5_Bxb5_e6_Bxd7+_Qxd7"
+        ],
+        "parentid": "root_e3_b5_Bxb5_e6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_b5_Bxb5_e6_Bxd7+_Qxd7": {
+        "id": "root_e3_b5_Bxb5_e6_Bxd7+_Qxd7",
+        "genalgeb": "d8d7",
+        "gensan": "Qxd7",
+        "fen": "rnb1kbnr/p1pq1ppp/4p3/8/8/4P3/PPPP1PPP/RNBQK1NR w KQkq - 0 4",
+        "childids": [],
+        "parentid": "root_e3_b5_Bxb5_e6_Bxd7+",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
         "hasEval": false,
         "eval": null
       }
