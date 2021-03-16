@@ -3,117 +3,15 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [
-          "root_d4"
-        ],
-        "parentid": null,
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d4": {
-        "id": "root_d4",
-        "genalgeb": "d2d4",
-        "gensan": "d4",
-        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
-        "childids": [
-          "root_d4_d5"
-        ],
-        "parentid": "root",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d4_d5": {
-        "id": "root_d4_d5",
-        "genalgeb": "d7d5",
-        "gensan": "d5",
-        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
-        "childids": [
-          "root_d4_d5_Nd2"
-        ],
-        "parentid": "root_d4",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d4_d5_Nd2": {
-        "id": "root_d4_d5_Nd2",
-        "genalgeb": "b1d2",
-        "gensan": "Nd2",
-        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPPNPPPP/R1BQKBNR b KQkq - 1 2",
-        "childids": [
-          "root_d4_d5_Nd2_Nf6"
-        ],
-        "parentid": "root_d4_d5",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d4_d5_Nd2_Nf6": {
-        "id": "root_d4_d5_Nd2_Nf6",
-        "genalgeb": "g8f6",
-        "gensan": "Nf6",
-        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/8/PPPNPPPP/R1BQKBNR w KQkq - 2 3",
-        "childids": [
-          "root_d4_d5_Nd2_Nf6_c3"
-        ],
-        "parentid": "root_d4_d5_Nd2",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d4_d5_Nd2_Nf6_c3": {
-        "id": "root_d4_d5_Nd2_Nf6_c3",
-        "genalgeb": "c2c3",
-        "gensan": "c3",
-        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2P5/PP1NPPPP/R1BQKBNR b KQkq - 0 3",
-        "childids": [
-          "root_d4_d5_Nd2_Nf6_c3_Bf5"
-        ],
-        "parentid": "root_d4_d5_Nd2_Nf6",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d4_d5_Nd2_Nf6_c3_Bf5": {
-        "id": "root_d4_d5_Nd2_Nf6_c3_Bf5",
-        "genalgeb": "c8f5",
-        "gensan": "Bf5",
-        "fen": "rn1qkb1r/ppp1pppp/5n2/3p1b2/3P4/2P5/PP1NPPPP/R1BQKBNR w KQkq - 1 4",
         "childids": [],
-        "parentid": "root_d4_d5_Nd2_Nf6_c3",
+        "parentid": null,
         "weights": [
           0,
           0
@@ -123,7 +21,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_d4_d5_Nd2_Nf6_c3_Bf5",
+    "currentnodeid": "root",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -144,35 +42,43 @@
     "players": {
       "players": [
         {
+          "id": "alieolo",
+          "username": "AliEolo",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1615924864322,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "cowboy_time",
+          "username": "Cowboy_Time",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1615924518187,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": 1615924864323,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
-    "result": 1,
-    "resultReason": "black resigned",
-    "startedAt": 1615874870337,
-    "terminatedAt": 1615874951130,
+    "result": null,
+    "resultReason": "in progress",
+    "startedAt": 1615924864323,
+    "terminatedAt": 1615921947999,
     "chat": {
       "capacity": 100,
       "messages": []
