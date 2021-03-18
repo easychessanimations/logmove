@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -37,52 +37,42 @@
     "pgnBody": "*",
     "timecontrol": {
       "initial": 3,
-      "increment": 1
+      "increment": 2
     },
     "players": {
       "players": [
         {
-          "id": "chessleelasf13",
-          "username": "ChessLeelaSF13",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1616057163135,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 180000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "cowboy_time",
-          "username": "Cowboy_Time",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1616053405147,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 180000,
-          "startedThinkingAt": 1616057163136,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
     "resultReason": "in progress",
-    "startedAt": 1616057163136,
-    "terminatedAt": 1615999762265,
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
