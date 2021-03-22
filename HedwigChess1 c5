@@ -2,7 +2,7 @@
   "username": "HedwigChess1",
   "san": "c5",
   "game": {
-    "variant": "standard",
+    "variant": "atomic",
     "flip": false,
     "gamenodes": {
       "root": {
@@ -11,7 +11,7 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e4"
+          "root_f4"
         ],
         "parentid": null,
         "weights": [
@@ -22,13 +22,47 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4": {
-        "id": "root_e4",
+      "root_f4": {
+        "id": "root_f4",
+        "genalgeb": "f2f4",
+        "gensan": "f4",
+        "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_f4_e6"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f4_e6": {
+        "id": "root_f4_e6",
+        "genalgeb": "e7e6",
+        "gensan": "e6",
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_f4_e6_e4"
+        ],
+        "parentid": "root_f4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_f4_e6_e4": {
+        "id": "root_f4_e6_e4",
         "genalgeb": "e2e4",
         "gensan": "e4",
-        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
         "childids": [],
-        "parentid": "root",
+        "parentid": "root_f4_e6",
         "weights": [
           0,
           0
@@ -38,13 +72,13 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4",
+    "currentnodeid": "root_f4_e6_e4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
       [
         "Variant",
-        "Standard"
+        "Atomic"
       ],
       [
         "FEN",
@@ -53,7 +87,7 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 5,
       "increment": 2
     },
     "players": {
@@ -84,12 +118,14 @@
     },
     "inProgress": false,
     "terminated": false,
-    "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1616339594353,
+    "terminatedAt": 1616339894696,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
