@@ -2,8 +2,8 @@
   "username": "HedwigChess1",
   "san": "e4",
   "game": {
-    "variant": "atomic",
-    "flip": true,
+    "variant": "standard",
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -27,7 +27,7 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Atomic"
+        "Standard"
       ],
       [
         "FEN",
@@ -36,53 +36,43 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 5,
+      "initial": 3,
       "increment": 2
     },
     "players": {
       "players": [
         {
-          "id": "hedwigchess1",
-          "username": "HedwigChess1",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1616339594350,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 300000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "oreo08",
-          "username": "Oreo08",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1616339015751,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 300000,
-          "startedThinkingAt": 1616339594353,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
     "resultReason": "in progress",
-    "startedAt": 1616339594353,
-    "terminatedAt": 1616289441220,
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
