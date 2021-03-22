@@ -36,43 +36,53 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
-      "increment": 2
+      "initial": 15,
+      "increment": 20
     },
     "players": {
       "players": [
         {
+          "id": "shadow1414",
+          "username": "shadow1414",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1616439115224,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "kampbot",
+          "username": "KAMPBOT",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1616439004040,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 900000,
+          "startedThinkingAt": 1616439115226,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1616439115226,
+    "terminatedAt": 1616412870217,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
