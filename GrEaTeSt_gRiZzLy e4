@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -42,43 +42,35 @@
     "players": {
       "players": [
         {
-          "id": "greatest_grizzly",
-          "username": "GrEaTeSt_gRiZzLy",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1616473425463,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 900000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "kampbot",
-          "username": "KAMPBOT",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1616439324908,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 900000,
-          "startedThinkingAt": 1616473425464,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
+    "result": 1,
+    "resultReason": "black resigned",
     "startedAt": 1616473425464,
-    "terminatedAt": 1616439308278,
+    "terminatedAt": 1616473445358,
     "chat": {
       "capacity": 100,
       "messages": []
