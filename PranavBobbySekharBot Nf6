@@ -3,7 +3,7 @@
   "san": "Nf6",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -164,7 +164,8 @@
         "gensan": "Bc4",
         "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
         "childids": [
-          "root_e4_e5_Nf3_Nc6_Bc4_Nf6"
+          "root_e4_e5_Nf3_Nc6_Bc4_Nf6",
+          "root_e4_e5_Nf3_Nc6_Bc4_Bc5"
         ],
         "parentid": "root_e4_e5_Nf3_Nc6",
         "weights": [
@@ -500,8 +501,108 @@
         "genalgeb": "g1f3",
         "gensan": "Nf3",
         "fen": "rnbqkbnr/ppp1pppp/8/8/8/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 4",
-        "childids": [],
+        "childids": [
+          "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6"
+        ],
         "parentid": "root_e4_d5_exd5_Qxd5_Nc3_Qd8",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6": {
+        "id": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6",
+        "genalgeb": "g8f6",
+        "gensan": "Nf6",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/8/8/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 4 5",
+        "childids": [
+          "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4"
+        ],
+        "parentid": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4": {
+        "id": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 0 5",
+        "childids": [
+          "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4_c6"
+        ],
+        "parentid": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4_c6": {
+        "id": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4_c6",
+        "genalgeb": "c7c6",
+        "gensan": "c6",
+        "fen": "rnbqkb1r/pp2pppp/2p2n2/8/3P4/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+        "childids": [
+          "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4_c6_Bf4"
+        ],
+        "parentid": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4_c6_Bf4": {
+        "id": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4_c6_Bf4",
+        "genalgeb": "c1f4",
+        "gensan": "Bf4",
+        "fen": "rnbqkb1r/pp2pppp/2p2n2/8/3P1B2/2N2N2/PPP2PPP/R2QKB1R b KQkq - 1 6",
+        "childids": [],
+        "parentid": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3_Nf6_d4_c6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bc4_Bc5": {
+        "id": "root_e4_e5_Nf3_Nc6_Bc4_Bc5",
+        "genalgeb": "f8c5",
+        "gensan": "Bc5",
+        "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bc4_Bc5_c3"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Bc4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bc4_Bc5_c3": {
+        "id": "root_e4_e5_Nf3_Nc6_Bc4_Bc5_c3",
+        "genalgeb": "c2c3",
+        "gensan": "c3",
+        "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 0 4",
+        "childids": [],
+        "parentid": "root_e4_e5_Nf3_Nc6_Bc4_Bc5",
         "weights": [
           0,
           0
@@ -511,7 +612,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_d5_exd5_Qxd5_Nc3_Qd8_Nf3",
+    "currentnodeid": "root_e4_e5_Nf3_Nc6_Bc4_Bc5_c3",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
