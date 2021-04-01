@@ -1,0 +1,165 @@
+{
+  "username": "Exverar",
+  "san": "Nf6",
+  "game": {
+    "variant": "standard",
+    "flip": false,
+    "gamenodes": {
+      "root": {
+        "id": "root",
+        "genalgeb": null,
+        "gensan": null,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "childids": [
+          "root_d3"
+        ],
+        "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d3": {
+        "id": "root_d3",
+        "genalgeb": "d2d3",
+        "gensan": "d3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_d3_e5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d3_e5": {
+        "id": "root_d3_e5",
+        "genalgeb": "e7e5",
+        "gensan": "e5",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/3P4/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_d3_e5_Nf3"
+        ],
+        "parentid": "root_d3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d3_e5_Nf3": {
+        "id": "root_d3_e5_Nf3",
+        "genalgeb": "g1f3",
+        "gensan": "Nf3",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/3P1N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+        "childids": [
+          "root_d3_e5_Nf3_Nc6"
+        ],
+        "parentid": "root_d3_e5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d3_e5_Nf3_Nc6": {
+        "id": "root_d3_e5_Nf3_Nc6",
+        "genalgeb": "b8c6",
+        "gensan": "Nc6",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/3P1N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+        "childids": [
+          "root_d3_e5_Nf3_Nc6_e4"
+        ],
+        "parentid": "root_d3_e5_Nf3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d3_e5_Nf3_Nc6_e4": {
+        "id": "root_d3_e5_Nf3_Nc6_e4",
+        "genalgeb": "e2e4",
+        "gensan": "e4",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/3P1N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_d3_e5_Nf3_Nc6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      }
+    },
+    "currentnodeid": "root_d3_e5_Nf3_Nc6_e4",
+    "animations": [],
+    "animationDescriptors": {},
+    "pgnHeaders": [
+      [
+        "Variant",
+        "Standard"
+      ],
+      [
+        "FEN",
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+      ]
+    ],
+    "pgnBody": "*",
+    "timecontrol": {
+      "initial": 2,
+      "increment": 4
+    },
+    "players": {
+      "players": [
+        {
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 0,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        },
+        {
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 1,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        }
+      ]
+    },
+    "inProgress": false,
+    "terminated": false,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1614787488231,
+    "terminatedAt": 1614787609161,
+    "chat": {
+      "capacity": 100,
+      "messages": []
+    },
+    "playerSeatedAfterTermination": false
+  }
+}
