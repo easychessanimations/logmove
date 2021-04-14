@@ -2,16 +2,16 @@
   "username": "LtuManChess",
   "san": "e6",
   "game": {
-    "variant": "atomic",
-    "flip": true,
+    "variant": "eightpiece",
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
         "childids": [
-          "root_d4"
+          "root_e3"
         ],
         "parentid": null,
         "weights": [
@@ -22,11 +22,11 @@
         "hasEval": false,
         "eval": null
       },
-      "root_d4": {
-        "id": "root_d4",
-        "genalgeb": "d2d4",
-        "gensan": "d4",
-        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+      "root_e3": {
+        "id": "root_e3",
+        "genalgeb": "e2e3",
+        "gensan": "e3",
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/JLneSQKBNR b KQkq - 0 1 -",
         "childids": [],
         "parentid": "root",
         "weights": [
@@ -38,55 +38,55 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_d4",
+    "currentnodeid": "root_e3",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
       [
         "Variant",
-        "Atomic"
+        "Eightpiece"
       ],
       [
         "FEN",
-        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
       ]
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 4,
-      "increment": 3
+      "initial": 22,
+      "increment": 19
     },
     "players": {
       "players": [
         {
-          "id": "ltumanchess",
-          "username": "LtuManChess",
+          "id": "fifabot_2951",
+          "username": "FifaBot_2951",
           "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
           "seated": true,
-          "seatedAt": 1617716071582,
+          "seatedAt": 1618410172091,
           "index": 0,
-          "thinkingTime": 240000,
-          "startedThinkingAt": 1617716235105,
+          "thinkingTime": 1320000,
+          "startedThinkingAt": 1618424010593,
           "offerDraw": false
         },
         {
-          "id": "huahww123",
-          "username": "huahww123",
+          "id": "daniels_bot",
+          "username": "daniels_bot",
           "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
           "seated": true,
-          "seatedAt": 1617716229586,
+          "seatedAt": 1618423998445,
           "index": 1,
-          "thinkingTime": 237510,
-          "startedThinkingAt": 1617716229587,
-          "offerDraw": false
+          "thinkingTime": 1326952,
+          "startedThinkingAt": 1618423998445,
+          "offerDraw": true
         }
       ]
     },
@@ -94,8 +94,8 @@
     "terminated": false,
     "result": null,
     "resultReason": "in progress",
-    "startedAt": 1617716229587,
-    "terminatedAt": 1617711737240,
+    "startedAt": 1618423998445,
+    "terminatedAt": 1618410095431,
     "chat": {
       "capacity": 100,
       "messages": []
