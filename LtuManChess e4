@@ -36,43 +36,53 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
-      "increment": 2
+      "initial": 1,
+      "increment": 1
     },
     "players": {
       "players": [
         {
+          "id": "stopracismbot",
+          "username": "StopRacismBOT",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1618956665450,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 60000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "ltumanchess",
+          "username": "LtuManChess",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1618991695861,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 60000,
+          "startedThinkingAt": 1618991695862,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1618991695862,
+    "terminatedAt": 1618952872676,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
