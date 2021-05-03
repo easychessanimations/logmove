@@ -3,7 +3,7 @@
   "san": "Qh5",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -44,8 +44,42 @@
         "genalgeb": "e7e5",
         "gensan": "e5",
         "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
-        "childids": [],
+        "childids": [
+          "root_e4_e5_Bc4"
+        ],
         "parentid": "root_e4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Bc4": {
+        "id": "root_e4_e5_Bc4",
+        "genalgeb": "f1c4",
+        "gensan": "Bc4",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2",
+        "childids": [
+          "root_e4_e5_Bc4_Nc6"
+        ],
+        "parentid": "root_e4_e5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Bc4_Nc6": {
+        "id": "root_e4_e5_Bc4_Nc6",
+        "genalgeb": "b8c6",
+        "gensan": "Nc6",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+        "childids": [],
+        "parentid": "root_e4_e5_Bc4",
         "weights": [
           0,
           0
@@ -55,7 +89,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_e5",
+    "currentnodeid": "root_e4_e5_Bc4_Nc6",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
