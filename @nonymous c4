@@ -11,7 +11,6 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_d3",
           "root_d4"
         ],
         "parentid": null,
@@ -20,21 +19,6 @@
           0
         ],
         "comment": "#z@tounge#delay:10000",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d3": {
-        "id": "root_d3",
-        "genalgeb": "d2d3",
-        "gensan": "d3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
-        "childids": [],
-        "parentid": "root",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
         "hasEval": false,
         "eval": null
       },
@@ -60,8 +44,42 @@
         "genalgeb": "d7d5",
         "gensan": "d5",
         "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
-        "childids": [],
+        "childids": [
+          "root_d4_d5_c4"
+        ],
         "parentid": "root_d4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_c4": {
+        "id": "root_d4_d5_c4",
+        "genalgeb": "c2c4",
+        "gensan": "c4",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "childids": [
+          "root_d4_d5_c4_e6"
+        ],
+        "parentid": "root_d4_d5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_c4_e6": {
+        "id": "root_d4_d5_c4_e6",
+        "genalgeb": "e7e6",
+        "gensan": "e6",
+        "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_d4_d5_c4",
         "weights": [
           0,
           0
