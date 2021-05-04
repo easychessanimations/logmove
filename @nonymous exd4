@@ -11,7 +11,8 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e3"
+          "root_c3",
+          "root_d4"
         ],
         "parentid": null,
         "weights": [
@@ -22,13 +23,28 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e3": {
-        "id": "root_e3",
-        "genalgeb": "e2e3",
-        "gensan": "e3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "root_c3": {
+        "id": "root_c3",
+        "genalgeb": "c2c3",
+        "gensan": "c3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
         "childids": [
-          "root_e3_e5"
+          "root_d4_e5"
         ],
         "parentid": "root",
         "weights": [
@@ -39,15 +55,15 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e3_e5": {
-        "id": "root_e3_e5",
+      "root_d4_e5": {
+        "id": "root_d4_e5",
         "genalgeb": "e7e5",
         "gensan": "e5",
-        "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/4P3/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
         "childids": [
-          "root_e3_e5_d4"
+          "root_d4_e5_Nc3"
         ],
-        "parentid": "root_e3",
+        "parentid": "root_d4",
         "weights": [
           0,
           0
@@ -56,30 +72,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e3_e5_d4": {
-        "id": "root_e3_e5_d4",
-        "genalgeb": "d2d4",
-        "gensan": "d4",
-        "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 2",
-        "childids": [
-          "root_e3_e5_d4_exd4"
-        ],
-        "parentid": "root_e3_e5",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e3_e5_d4_exd4": {
-        "id": "root_e3_e5_d4_exd4",
-        "genalgeb": "e5d4",
-        "gensan": "exd4",
-        "fen": "rnbqkbnr/pppp1ppp/8/8/3p4/4P3/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "root_d4_e5_Nc3": {
+        "id": "root_d4_e5_Nc3",
+        "genalgeb": "b1c3",
+        "gensan": "Nc3",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq - 1 2",
         "childids": [],
-        "parentid": "root_e3_e5_d4",
+        "parentid": "root_d4_e5",
         "weights": [
           0,
           0
@@ -89,7 +88,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e3_e5_d4_exd4",
+    "currentnodeid": "root_d4_e5_Nc3",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -104,8 +103,8 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 15,
-      "increment": 20
+      "initial": 3,
+      "increment": 2
     },
     "players": {
       "players": [
@@ -135,14 +134,12 @@
     },
     "inProgress": false,
     "terminated": false,
-    "result": 0,
-    "resultReason": "white resigned",
-    "startedAt": 1619938650499,
-    "terminatedAt": 1619938765248,
+    "resultReason": "in progress",
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
