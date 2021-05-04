@@ -36,43 +36,53 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 5,
       "increment": 2
     },
     "players": {
       "players": [
         {
+          "id": "ourbot",
+          "username": "OurBot",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1620133354190,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 300000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "cakeer14",
+          "username": "cakeer14",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1620126479579,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 300000,
+          "startedThinkingAt": 1620133354190,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1620133354190,
+    "terminatedAt": 1620115840879,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
