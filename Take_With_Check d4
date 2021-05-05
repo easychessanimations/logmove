@@ -3,7 +3,7 @@
   "san": "d4",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -36,43 +36,53 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 5,
       "increment": 2
     },
     "players": {
       "players": [
         {
+          "id": "take_with_check",
+          "username": "Take_With_Check",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1620231828302,
           "index": 0,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 300000,
+          "startedThinkingAt": null,
+          "offerDraw": false
         },
         {
+          "id": "take_with_check",
+          "username": "Take_With_Check",
+          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": false,
-          "seatedAt": null,
+          "seated": true,
+          "seatedAt": 1620231823314,
           "index": 1,
-          "thinkingTime": 0,
-          "startedThinkingAt": null
+          "thinkingTime": 300000,
+          "startedThinkingAt": 1620231828302,
+          "offerDraw": false
         }
       ]
     },
-    "inProgress": false,
+    "inProgress": true,
     "terminated": false,
+    "result": null,
     "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "startedAt": 1620231828302,
+    "terminatedAt": 1620231799196,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
