@@ -45,7 +45,7 @@
         "gensan": "e5",
         "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
         "childids": [
-          "root_e4_e5_d4"
+          "root_e4_e5_f4"
         ],
         "parentid": "root_e4",
         "weights": [
@@ -56,13 +56,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_e5_d4": {
-        "id": "root_e4_e5_d4",
-        "genalgeb": "d2d4",
-        "gensan": "d4",
-        "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+      "root_e4_e5_f4": {
+        "id": "root_e4_e5_f4",
+        "genalgeb": "f2f4",
+        "gensan": "f4",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
         "childids": [
-          "root_e4_e5_d4_Qh4"
+          "root_e4_e5_f4_exf4"
         ],
         "parentid": "root_e4_e5",
         "weights": [
@@ -73,15 +73,15 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_e5_d4_Qh4": {
-        "id": "root_e4_e5_d4_Qh4",
-        "genalgeb": "d8h4",
-        "gensan": "Qh4",
-        "fen": "rnb1kbnr/pppp1ppp/8/4p3/3PP2q/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+      "root_e4_e5_f4_exf4": {
+        "id": "root_e4_e5_f4_exf4",
+        "genalgeb": "e5f4",
+        "gensan": "exf4",
+        "fen": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
         "childids": [
-          "root_e4_e5_d4_Qh4_g3"
+          "root_e4_e5_f4_exf4_d4"
         ],
-        "parentid": "root_e4_e5_d4",
+        "parentid": "root_e4_e5_f4",
         "weights": [
           0,
           0
@@ -90,30 +90,47 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_e5_d4_Qh4_g3": {
-        "id": "root_e4_e5_d4_Qh4_g3",
+      "root_e4_e5_f4_exf4_d4": {
+        "id": "root_e4_e5_f4_exf4_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppp1ppp/8/8/3PPp2/8/PPP3PP/RNBQKBNR b KQkq - 0 3",
+        "childids": [
+          "root_e4_e5_f4_exf4_d4_Qh4+"
+        ],
+        "parentid": "root_e4_e5_f4_exf4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_f4_exf4_d4_Qh4+": {
+        "id": "root_e4_e5_f4_exf4_d4_Qh4+",
+        "genalgeb": "d8h4",
+        "gensan": "Qh4+",
+        "fen": "rnb1kbnr/pppp1ppp/8/8/3PPp1q/8/PPP3PP/RNBQKBNR w KQkq - 1 4",
+        "childids": [
+          "root_e4_e5_f4_exf4_d4_Qh4+_g3"
+        ],
+        "parentid": "root_e4_e5_f4_exf4_d4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_f4_exf4_d4_Qh4+_g3": {
+        "id": "root_e4_e5_f4_exf4_d4_Qh4+_g3",
         "genalgeb": "g2g3",
         "gensan": "g3",
-        "fen": "rnb1kbnr/pppp1ppp/8/4p3/3PP2q/6P1/PPP2P1P/RNBQKBNR b KQkq - 0 3",
-        "childids": [
-          "root_e4_e5_d4_Qh4_g3_Qxg3"
-        ],
-        "parentid": "root_e4_e5_d4_Qh4",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_e4_e5_d4_Qh4_g3_Qxg3": {
-        "id": "root_e4_e5_d4_Qh4_g3_Qxg3",
-        "genalgeb": "h4g3",
-        "gensan": "Qxg3",
-        "fen": "rnb1kbnr/pppp1ppp/8/4p3/3PP3/6q1/PPP2P1P/RNBQKBNR w KQkq - 0 4",
+        "fen": "rnb1kbnr/pppp1ppp/8/8/3PPp1q/6P1/PPP4P/RNBQKBNR b KQkq - 0 4",
         "childids": [],
-        "parentid": "root_e4_e5_d4_Qh4_g3",
+        "parentid": "root_e4_e5_f4_exf4_d4_Qh4+",
         "weights": [
           0,
           0
@@ -123,7 +140,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_e5_d4_Qh4_g3_Qxg3",
+    "currentnodeid": "root_e4_e5_f4_exf4_d4_Qh4+_g3",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -138,7 +155,7 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 1,
       "increment": 2
     },
     "players": {
@@ -169,12 +186,14 @@
     },
     "inProgress": false,
     "terminated": false,
-    "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "result": 1,
+    "resultReason": "flagged",
+    "startedAt": 1620744548642,
+    "terminatedAt": 1620744616188,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
