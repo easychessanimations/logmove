@@ -3,7 +3,7 @@
   "san": "b6",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -11,7 +11,8 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e3"
+          "root_e3",
+          "root_d4"
         ],
         "parentid": null,
         "weights": [
@@ -401,8 +402,329 @@
         "genalgeb": "c2e4",
         "gensan": "Bxe4",
         "fen": "r1bqkb2/ppppp3/8/6p1/4B1P1/7N/PP1P1P1P/RNB1K2R b KQq - 0 12",
-        "childids": [],
+        "childids": [
+          "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4_b6"
+        ],
         "parentid": "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4_b6": {
+        "id": "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4_b6",
+        "genalgeb": "b7b6",
+        "gensan": "b6",
+        "fen": "r1bqkb2/p1ppp3/1p6/6p1/4B1P1/7N/PP1P1P1P/RNB1K2R w KQq - 0 13",
+        "childids": [
+          "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4_b6_Bg6#"
+        ],
+        "parentid": "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4_b6_Bg6#": {
+        "id": "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4_b6_Bg6#",
+        "genalgeb": "e4g6",
+        "gensan": "Bg6#",
+        "fen": "r1bqkb2/p1ppp3/1p4B1/6p1/6P1/7N/PP1P1P1P/RNB1K2R b KQq - 1 13",
+        "childids": [],
+        "parentid": "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4_b6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_d4_d5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5": {
+        "id": "root_d4_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_d4_d5_Qd3"
+        ],
+        "parentid": "root_d4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3": {
+        "id": "root_d4_d5_Qd3",
+        "genalgeb": "d1d3",
+        "gensan": "Qd3",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/3Q4/PPP1PPPP/RNB1KBNR b KQkq - 1 2",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5"
+        ],
+        "parentid": "root_d4_d5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5": {
+        "id": "root_d4_d5_Qd3_Bf5",
+        "genalgeb": "c8f5",
+        "gensan": "Bf5",
+        "fen": "rn1qkbnr/ppp1pppp/8/3p1b2/3P4/3Q4/PPP1PPPP/RNB1KBNR w KQkq - 2 3",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5"
+        ],
+        "parentid": "root_d4_d5_Qd3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5",
+        "genalgeb": "d3f5",
+        "gensan": "Qxf5",
+        "fen": "rn1qkbnr/ppp1pppp/8/3p1Q2/3P4/8/PPP1PPPP/RNB1KBNR b KQkq - 0 3",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6",
+        "genalgeb": "e7e6",
+        "gensan": "e6",
+        "fen": "rn1qkbnr/ppp2ppp/4p3/3p1Q2/3P4/8/PPP1PPPP/RNB1KBNR w KQkq - 0 4",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6",
+        "genalgeb": "f5f6",
+        "gensan": "Qf6",
+        "fen": "rn1qkbnr/ppp2ppp/4pQ2/3p4/3P4/8/PPP1PPPP/RNB1KBNR b KQkq - 1 4",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6",
+        "genalgeb": "d8f6",
+        "gensan": "Qxf6",
+        "fen": "rn2kbnr/ppp2ppp/4pq2/3p4/3P4/8/PPP1PPPP/RNB1KBNR w KQkq - 0 5",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4",
+        "genalgeb": "f2f4",
+        "gensan": "f4",
+        "fen": "rn2kbnr/ppp2ppp/4pq2/3p4/3P1P2/8/PPP1P1PP/RNB1KBNR b KQkq - 0 5",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4",
+        "genalgeb": "f6f4",
+        "gensan": "Qxf4",
+        "fen": "rn2kbnr/ppp2ppp/4p3/3p4/3P1q2/8/PPP1P1PP/RNB1KBNR w KQkq - 0 6",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3",
+        "genalgeb": "e2e3",
+        "gensan": "e3",
+        "fen": "rn2kbnr/ppp2ppp/4p3/3p4/3P1q2/4P3/PPP3PP/RNB1KBNR b KQkq - 0 6",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4",
+        "genalgeb": "f4g4",
+        "gensan": "Qg4",
+        "fen": "rn2kbnr/ppp2ppp/4p3/3p4/3P2q1/4P3/PPP3PP/RNB1KBNR w KQkq - 1 7",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2",
+        "genalgeb": "e1f2",
+        "gensan": "Kf2",
+        "fen": "rn2kbnr/ppp2ppp/4p3/3p4/3P2q1/4P3/PPP2KPP/RNB2BNR b kq - 2 7",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+",
+        "genalgeb": "g4h4",
+        "gensan": "Qh4+",
+        "fen": "rn2kbnr/ppp2ppp/4p3/3p4/3P3q/4P3/PPP2KPP/RNB2BNR w kq - 3 8",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2",
+        "genalgeb": "f2e2",
+        "gensan": "Ke2",
+        "fen": "rn2kbnr/ppp2ppp/4p3/3p4/3P3q/4P3/PPP1K1PP/RNB2BNR b kq - 4 8",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2_c5"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2_c5": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2_c5",
+        "genalgeb": "c7c5",
+        "gensan": "c5",
+        "fen": "rn2kbnr/pp3ppp/4p3/2pp4/3P3q/4P3/PPP1K1PP/RNB2BNR w kq - 0 9",
+        "childids": [
+          "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2_c5_dxc5"
+        ],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2_c5_dxc5": {
+        "id": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2_c5_dxc5",
+        "genalgeb": "d4c5",
+        "gensan": "dxc5",
+        "fen": "rn2kbnr/pp3ppp/4p3/2Pp4/7q/4P3/PPP1K1PP/RNB2BNR b kq - 0 9",
+        "childids": [],
+        "parentid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2_c5",
         "weights": [
           0,
           0
@@ -412,7 +734,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e3_f6_Qf3_f5_e4_fxe4_Qxe4_g5_Qxh7_Nf6_Qh5+_Rxh5_g4_Rh3_Nxh3_Na6_Bc4_Nb4_Bd3_Nxc2+_Bxc2_Ne4_Bxe4",
+    "currentnodeid": "root_d4_d5_Qd3_Bf5_Qxf5_e6_Qf6_Qxf6_f4_Qxf4_e3_Qg4_Kf2_Qh4+_Ke2_c5_dxc5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
