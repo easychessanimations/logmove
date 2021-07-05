@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "seirawan",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -42,6 +42,21 @@
     "players": {
       "players": [
         {
+          "id": "the_pro_bot",
+          "username": "THE_PRO_BOT",
+          "provider": "lichess",
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": true,
+          "seatedAt": 1625477770128,
+          "index": 0,
+          "thinkingTime": 60000,
+          "startedThinkingAt": null,
+          "offerDraw": false
+        },
+        {
           "id": "chess_master_12345",
           "username": "Chess_master_12345",
           "provider": "lichess",
@@ -50,25 +65,10 @@
             "rd": 250
           },
           "seated": true,
-          "seatedAt": 1625467351082,
-          "index": 0,
-          "thinkingTime": 60000,
-          "startedThinkingAt": null,
-          "offerDraw": false
-        },
-        {
-          "id": "pro_kuzu",
-          "username": "PRO_KUZU",
-          "provider": "lichess",
-          "glicko": {
-            "rating": 1500,
-            "rd": 250
-          },
-          "seated": true,
-          "seatedAt": 1625466781046,
+          "seatedAt": 1625478043582,
           "index": 1,
           "thinkingTime": 60000,
-          "startedThinkingAt": 1625467351084,
+          "startedThinkingAt": 1625478043583,
           "offerDraw": false
         }
       ]
@@ -77,8 +77,8 @@
     "terminated": false,
     "result": null,
     "resultReason": "in progress",
-    "startedAt": 1625467351084,
-    "terminatedAt": 1625461807820,
+    "startedAt": 1625478043583,
+    "terminatedAt": 1625477514691,
     "chat": {
       "capacity": 100,
       "messages": []
