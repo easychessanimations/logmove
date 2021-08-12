@@ -2,7 +2,7 @@
   "username": "ChessLover350",
   "san": "e4",
   "game": {
-    "variant": "atomic",
+    "variant": "standard",
     "flip": false,
     "gamenodes": {
       "root": {
@@ -27,7 +27,7 @@
     "pgnHeaders": [
       [
         "Variant",
-        "Atomic"
+        "Standard"
       ],
       [
         "FEN",
@@ -36,49 +36,41 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 5,
-      "increment": 2
+      "initial": 4,
+      "increment": 1
     },
     "players": {
       "players": [
         {
-          "id": "sl_red_king_bot3",
-          "username": "SL_Red_King_BOT3",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1628157433744,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 300000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "chesslover350",
-          "username": "ChessLover350",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1628157484618,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 300000,
-          "startedThinkingAt": 1628157484619,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1628157484619,
-    "terminatedAt": 1628147346256,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1628748183380,
+    "terminatedAt": 1628748423681,
     "chat": {
       "capacity": 100,
       "messages": []
