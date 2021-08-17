@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -42,46 +42,56 @@
     "players": {
       "players": [
         {
-          "id": "naadchess",
-          "username": "NaadChess",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1629212699464,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 600000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "ninaadpathak2007",
-          "username": "NinaadPathak2007",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1629210615116,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 600000,
-          "startedThinkingAt": 1629212699465,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1629212699465,
+    "result": 1,
+    "resultReason": "black resigned",
+    "startedAt": 1629190326756,
     "terminatedAt": 1629190431511,
     "chat": {
       "capacity": 100,
-      "messages": []
+      "messages": [
+        {
+          "author": {
+            "id": "probot2323",
+            "username": "ProBot2323",
+            "provider": "lichess",
+            "glicko": {
+              "rating": 1500,
+              "rd": 250
+            },
+            "seated": false,
+            "seatedAt": null,
+            "index": 0,
+            "thinkingTime": 0,
+            "startedThinkingAt": null
+          },
+          "msg": "pls help me code"
+        }
+      ]
     },
     "playerSeatedAfterTermination": false
   }
