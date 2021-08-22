@@ -3,20 +3,71 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_a3"
+        ],
         "parentid": null,
         "weights": [
           0,
           0
         ],
         "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3": {
+        "id": "root_a3",
+        "genalgeb": "a2a3",
+        "gensan": "a3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_a3_b5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3_b5": {
+        "id": "root_a3_b5",
+        "genalgeb": "b7b5",
+        "gensan": "b5",
+        "fen": "rnbqkbnr/p1pppppp/8/1p6/8/P7/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_a3_b5_d4"
+        ],
+        "parentid": "root_a3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3_b5_d4": {
+        "id": "root_a3_b5_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/p1pppppp/8/1p6/3P4/P7/1PP1PPPP/RNBQKBNR b KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_a3_b5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "c6\n",
         "hasEval": false,
         "eval": null
       }
@@ -36,53 +87,43 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 10,
+      "initial": 3,
       "increment": 2
     },
     "players": {
       "players": [
         {
-          "id": "bestgameischess",
-          "username": "bestgameischess",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1629616718342,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 600000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "omegaluuuuul69",
-          "username": "omegaluuuuul69",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1629583199872,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 600000,
-          "startedThinkingAt": 1629616718343,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
     "resultReason": "in progress",
-    "startedAt": 1629616718343,
-    "terminatedAt": 1629547871680,
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
