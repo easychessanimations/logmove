@@ -13,6 +13,8 @@
         "childids": [
           "root_c4",
           "root_b4",
+          "root_a3",
+          "root_a4",
           "root_b3",
           "root_e4"
         ],
@@ -47,11 +49,12 @@
         "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
         "childids": [
           "root_c4_e5",
-          "root_c4_Nf6"
+          "root_c4_Nf6",
+          "root_c4_e6"
         ],
         "parentid": "root",
         "weights": [
-          10,
+          8,
           10
         ],
         "comment": "",
@@ -231,11 +234,13 @@
         "genalgeb": "b2b4",
         "gensan": "b4",
         "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_b4_a5"
+        ],
         "parentid": "root",
         "weights": [
-          10,
-          10
+          5,
+          0
         ],
         "comment": "",
         "hasEval": false,
@@ -287,9 +292,69 @@
         "comment": "",
         "hasEval": false,
         "eval": null
+      },
+      "root_b4_a5": {
+        "id": "root_b4_a5",
+        "genalgeb": "a7a5",
+        "gensan": "a5",
+        "fen": "rnbqkbnr/1ppppppp/8/p7/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_b4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3": {
+        "id": "root_a3",
+        "genalgeb": "a2a3",
+        "gensan": "a3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          1,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a4": {
+        "id": "root_a4",
+        "genalgeb": "a2a4",
+        "gensan": "a4",
+        "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          1,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_c4_e6": {
+        "id": "root_c4_e6",
+        "genalgeb": "e7e6",
+        "gensan": "e6",
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_c4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
       }
     },
-    "currentnodeid": "root_c4_Nf6",
+    "currentnodeid": "root_c4_e6",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
