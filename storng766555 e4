@@ -3,15 +3,32 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": false,
+    "flip": true,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_e3"
+        ],
         "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3": {
+        "id": "root_e3",
+        "genalgeb": "e2e3",
+        "gensan": "e3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
         "weights": [
           0,
           0
@@ -36,7 +53,7 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 5,
       "increment": 2
     },
     "players": {
@@ -67,12 +84,14 @@
     },
     "inProgress": false,
     "terminated": false,
-    "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "result": 0,
+    "resultReason": "white resigned",
+    "startedAt": 1631467705133,
+    "terminatedAt": 1631467720349,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
