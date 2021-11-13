@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -36,49 +36,41 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 5,
-      "increment": 2
+      "initial": 15,
+      "increment": 8
     },
     "players": {
       "players": [
         {
-          "id": "jenkisqueen",
-          "username": "JenkisQueen",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1636787383576,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 300000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "prithamsraobot",
-          "username": "PrithamSRaoBOT",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1636786562299,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 300000,
-          "startedThinkingAt": 1636787383577,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1636787383577,
-    "terminatedAt": 1636712041800,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1636633609373,
+    "terminatedAt": 1636634509389,
     "chat": {
       "capacity": 100,
       "messages": []
