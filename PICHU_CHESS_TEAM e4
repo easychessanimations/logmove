@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -37,48 +37,40 @@
     "pgnBody": "*",
     "timecontrol": {
       "initial": 15,
-      "increment": 2
+      "increment": 8
     },
     "players": {
       "players": [
         {
-          "id": "pichu_chess_team",
-          "username": "PICHU_CHESS_TEAM",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1637056101882,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 900000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "maheswars_team",
-          "username": "Maheswars_Team",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1637047117664,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 900000,
-          "startedThinkingAt": 1637056101883,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1637056101883,
-    "terminatedAt": 1636986462377,
+    "result": 0,
+    "resultReason": "white resigned",
+    "startedAt": 1636617511024,
+    "terminatedAt": 1636618180713,
     "chat": {
       "capacity": 100,
       "messages": []
