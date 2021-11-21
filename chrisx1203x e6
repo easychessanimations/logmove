@@ -11,7 +11,8 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_e4"
+          "root_e4",
+          "root_d4"
         ],
         "parentid": null,
         "weights": [
@@ -36,9 +37,24 @@
         "comment": "",
         "hasEval": false,
         "eval": null
+      },
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
       }
     },
-    "currentnodeid": "root_e4",
+    "currentnodeid": "root_d4",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -53,8 +69,8 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 15,
-      "increment": 20
+      "initial": 3,
+      "increment": 2
     },
     "players": {
       "players": [
@@ -84,14 +100,12 @@
     },
     "inProgress": false,
     "terminated": false,
-    "result": 0,
-    "resultReason": "flagged",
-    "startedAt": 1614011822417,
-    "terminatedAt": 1614012723270,
+    "resultReason": "in progress",
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
