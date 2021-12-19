@@ -1,0 +1,114 @@
+{
+  "username": "Electro_Boy2",
+  "san": "Sb2",
+  "game": {
+    "variant": "eightpiece",
+    "flip": false,
+    "gamenodes": {
+      "root": {
+        "id": "root",
+        "genalgeb": null,
+        "gensan": null,
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+        "childids": [
+          "root_b3"
+        ],
+        "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_b3": {
+        "id": "root_b3",
+        "genalgeb": "b2b3",
+        "gensan": "b3",
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/JLneSQKBNR b KQkq - 0 1 -",
+        "childids": [
+          "root_b3_d6"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          1
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_b3_d6": {
+        "id": "root_b3_d6",
+        "genalgeb": "d7d6",
+        "gensan": "d6",
+        "fen": "jlsesqkbnr/ppp1pppp/3p4/8/8/1P6/P1PPPPPP/JLneSQKBNR w KQkq - 0 2 -",
+        "childids": [],
+        "parentid": "root_b3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      }
+    },
+    "currentnodeid": "root_b3_d6",
+    "animations": [],
+    "animationDescriptors": {},
+    "pgnHeaders": [
+      [
+        "Variant",
+        "Eightpiece"
+      ],
+      [
+        "FEN",
+        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+      ]
+    ],
+    "pgnBody": "*",
+    "timecontrol": {
+      "initial": 3,
+      "increment": 2
+    },
+    "players": {
+      "players": [
+        {
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 0,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        },
+        {
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 1,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        }
+      ]
+    },
+    "inProgress": false,
+    "terminated": false,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1639908812613,
+    "terminatedAt": 1639908992720,
+    "chat": {
+      "capacity": 100,
+      "messages": []
+    },
+    "playerSeatedAfterTermination": false
+  }
+}
