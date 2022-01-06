@@ -79,7 +79,7 @@
         "gensan": "Nc6",
         "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
         "childids": [
-          "root_e4_e5_Nf3_Nc6_Bc4"
+          "root_e4_e5_Nf3_Nc6_Nc3"
         ],
         "parentid": "root_e4_e5_Nf3",
         "weights": [
@@ -90,13 +90,81 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e4_e5_Nf3_Nc6_Bc4": {
-        "id": "root_e4_e5_Nf3_Nc6_Bc4",
-        "genalgeb": "f1c4",
-        "gensan": "Bc4",
-        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
-        "childids": [],
+      "root_e4_e5_Nf3_Nc6_Nc3": {
+        "id": "root_e4_e5_Nf3_Nc6_Nc3",
+        "genalgeb": "b1c3",
+        "gensan": "Nc3",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 3",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Nc3_Be7"
+        ],
         "parentid": "root_e4_e5_Nf3_Nc6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Nc3_Be7": {
+        "id": "root_e4_e5_Nf3_Nc6_Nc3_Be7",
+        "genalgeb": "f8e7",
+        "gensan": "Be7",
+        "fen": "r1bqk1nr/ppppbppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 4 4",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Nc3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6": {
+        "id": "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6",
+        "genalgeb": "f1a6",
+        "gensan": "Ba6",
+        "fen": "r1bqk1nr/ppppbppp/B1n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 5 4",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6_bxa6"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Nc3_Be7",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6_bxa6": {
+        "id": "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6_bxa6",
+        "genalgeb": "b7a6",
+        "gensan": "bxa6",
+        "fen": "r1bqk1nr/p1ppbppp/p1n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6_bxa6_Nd5"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6_bxa6_Nd5": {
+        "id": "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6_bxa6_Nd5",
+        "genalgeb": "c3d5",
+        "gensan": "Nd5",
+        "fen": "r1bqk1nr/p1ppbppp/p1n5/3Np3/4P3/5N2/PPPP1PPP/R1BQK2R b KQkq - 1 5",
+        "childids": [],
+        "parentid": "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6_bxa6",
         "weights": [
           0,
           0
@@ -106,7 +174,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_e4_e5_Nf3_Nc6_Bc4",
+    "currentnodeid": "root_e4_e5_Nf3_Nc6_Nc3_Be7_Ba6_bxa6_Nd5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -127,47 +195,37 @@
     "players": {
       "players": [
         {
-          "id": "chriszalax",
-          "username": "ChrisZaLaX",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1639700469212,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 180000,
-          "startedThinkingAt": 1639704925972,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "ronbot2022",
-          "username": "RonBot2022",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1639704923206,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 179249,
-          "startedThinkingAt": 1639704923207,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
     "resultReason": "in progress",
-    "startedAt": 1639704923207,
-    "terminatedAt": 1639642744992,
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
