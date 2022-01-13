@@ -1,0 +1,148 @@
+{
+  "username": "pugfitnes11",
+  "san": "Qxd5",
+  "game": {
+    "variant": "standard",
+    "flip": false,
+    "gamenodes": {
+      "root": {
+        "id": "root",
+        "genalgeb": null,
+        "gensan": null,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "childids": [
+          "root_d4"
+        ],
+        "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4": {
+        "id": "root_d4",
+        "genalgeb": "d2d4",
+        "gensan": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_d4_Nf6"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          5
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_Nf6": {
+        "id": "root_d4_Nf6",
+        "genalgeb": "g8f6",
+        "gensan": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "childids": [
+          "root_d4_Nf6_d5"
+        ],
+        "parentid": "root_d4",
+        "weights": [
+          5,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_Nf6_d5": {
+        "id": "root_d4_Nf6_d5",
+        "genalgeb": "d4d5",
+        "gensan": "d5",
+        "fen": "rnbqkb1r/pppppppp/5n2/3P4/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 2",
+        "childids": [
+          "root_d4_Nf6_d5_Nxd5"
+        ],
+        "parentid": "root_d4_Nf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_d4_Nf6_d5_Nxd5": {
+        "id": "root_d4_Nf6_d5_Nxd5",
+        "genalgeb": "f6d5",
+        "gensan": "Nxd5",
+        "fen": "rnbqkb1r/pppppppp/8/3n4/8/8/PPP1PPPP/RNBQKBNR w KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_d4_Nf6_d5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      }
+    },
+    "currentnodeid": "root_d4_Nf6_d5_Nxd5",
+    "animations": [],
+    "animationDescriptors": {},
+    "pgnHeaders": [
+      [
+        "Variant",
+        "Standard"
+      ],
+      [
+        "FEN",
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+      ]
+    ],
+    "pgnBody": "*",
+    "timecontrol": {
+      "initial": 15,
+      "increment": 20
+    },
+    "players": {
+      "players": [
+        {
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 0,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        },
+        {
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 1,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        }
+      ]
+    },
+    "inProgress": false,
+    "terminated": false,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1641979218471,
+    "terminatedAt": 1641980119435,
+    "chat": {
+      "capacity": 100,
+      "messages": []
+    },
+    "playerSeatedAfterTermination": false
+  }
+}
