@@ -10,8 +10,76 @@
         "genalgeb": null,
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_a3"
+        ],
         "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3": {
+        "id": "root_a3",
+        "genalgeb": "a2a3",
+        "gensan": "a3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_a3_b6"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          5
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3_b6": {
+        "id": "root_a3_b6",
+        "genalgeb": "b7b6",
+        "gensan": "b6",
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/P7/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_a3_b6_d3"
+        ],
+        "parentid": "root_a3",
+        "weights": [
+          0,
+          5
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3_b6_d3": {
+        "id": "root_a3_b6_d3",
+        "genalgeb": "d2d3",
+        "gensan": "d3",
+        "fen": "rnbqkbnr/p1pppppp/1p6/8/8/P2P4/1PP1PPPP/RNBQKBNR b KQkq - 0 2",
+        "childids": [
+          "root_a3_b6_d3_d5"
+        ],
+        "parentid": "root_a3_b6",
+        "weights": [
+          5,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_a3_b6_d3_d5": {
+        "id": "root_a3_b6_d3_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/p1p1pppp/1p6/3p4/8/P2P4/1PP1PPPP/RNBQKBNR w KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_a3_b6_d3",
         "weights": [
           0,
           0
@@ -21,7 +89,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root",
+    "currentnodeid": "root_a3_b6_d3_d5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -36,7 +104,7 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 15,
       "increment": 2
     },
     "players": {
@@ -67,12 +135,14 @@
     },
     "inProgress": false,
     "terminated": false,
-    "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1637422237561,
+    "terminatedAt": 1637423138043,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
