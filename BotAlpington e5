@@ -3,7 +3,7 @@
   "san": "e5",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -11,42 +11,9 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_Nh3",
           "root_e4"
         ],
         "parentid": null,
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_Nh3": {
-        "id": "root_Nh3",
-        "genalgeb": "g1h3",
-        "gensan": "Nh3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
-        "childids": [
-          "root_Nh3_Na6"
-        ],
-        "parentid": "root",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_Nh3_Na6": {
-        "id": "root_Nh3_Na6",
-        "genalgeb": "b8a6",
-        "gensan": "Na6",
-        "fen": "r1bqkbnr/pppppppp/n7/8/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
-        "childids": [],
-        "parentid": "root_Nh3",
         "weights": [
           0,
           0
@@ -86,7 +53,7 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 3,
+      "initial": 6,
       "increment": 2
     },
     "players": {
@@ -117,12 +84,14 @@
     },
     "inProgress": false,
     "terminated": false,
-    "resultReason": "in progress",
-    "startedAt": null,
-    "terminatedAt": null,
+    "result": 0,
+    "resultReason": "flagged",
+    "startedAt": 1644590159343,
+    "terminatedAt": 1644590519919,
     "chat": {
       "capacity": 100,
       "messages": []
-    }
+    },
+    "playerSeatedAfterTermination": false
   }
 }
