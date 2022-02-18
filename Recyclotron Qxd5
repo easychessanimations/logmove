@@ -28,11 +28,45 @@
         "gensan": "e4",
         "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
         "childids": [
+          "root_e4_e5",
+          "root_e4_c5",
           "root_e4_d5"
         ],
         "parentid": "root",
         "weights": [
           0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5": {
+        "id": "root_e4_e5",
+        "genalgeb": "e7e5",
+        "gensan": "e5",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_e4_e5_Nc3"
+        ],
+        "parentid": "root_e4",
+        "weights": [
+          5,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_c5": {
+        "id": "root_e4_c5",
+        "genalgeb": "c7c5",
+        "gensan": "c5",
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_e4",
+        "weights": [
+          5,
           0
         ],
         "comment": "",
@@ -49,7 +83,39 @@
         ],
         "parentid": "root_e4",
         "weights": [
+          5,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nc3": {
+        "id": "root_e4_e5_Nc3",
+        "genalgeb": "b1c3",
+        "gensan": "Nc3",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+        "childids": [
+          "root_e4_e5_Nc3_Nf6"
+        ],
+        "parentid": "root_e4_e5",
+        "weights": [
           0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nc3_Nf6": {
+        "id": "root_e4_e5_Nc3_Nf6",
+        "genalgeb": "g8f6",
+        "gensan": "Nf6",
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "childids": [],
+        "parentid": "root_e4_e5_Nc3",
+        "weights": [
+          5,
           0
         ],
         "comment": "",
@@ -61,10 +127,27 @@
         "genalgeb": "e4d5",
         "gensan": "exd5",
         "fen": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
-        "childids": [],
+        "childids": [
+          "root_e4_d5_exd5_Qxd5"
+        ],
         "parentid": "root_e4_d5",
         "weights": [
           0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_d5_exd5_Qxd5": {
+        "id": "root_e4_d5_exd5_Qxd5",
+        "genalgeb": "d8d5",
+        "gensan": "Qxd5",
+        "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+        "childids": [],
+        "parentid": "root_e4_d5_exd5",
+        "weights": [
+          5,
           0
         ],
         "comment": "",
