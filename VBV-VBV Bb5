@@ -1,0 +1,122 @@
+{
+  "username": "VBV-VBV",
+  "san": "Bb5",
+  "game": {
+    "variant": "standard",
+    "flip": false,
+    "gamenodes": {
+      "root": {
+        "id": "root",
+        "genalgeb": null,
+        "gensan": null,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "childids": [
+          "root_e3"
+        ],
+        "parentid": null,
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3": {
+        "id": "root_e3",
+        "genalgeb": "e2e3",
+        "gensan": "e3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_e3_e6"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3_e6": {
+        "id": "root_e3_e6",
+        "genalgeb": "e7e6",
+        "gensan": "e6",
+        "fen": "rnbqkbnr/pppp1ppp/4p3/8/8/4P3/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_e3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      }
+    },
+    "currentnodeid": "root_e3_e6",
+    "animations": [],
+    "animationDescriptors": {},
+    "pgnHeaders": [
+      [
+        "Variant",
+        "Standard"
+      ],
+      [
+        "FEN",
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+      ]
+    ],
+    "pgnBody": "*",
+    "timecontrol": {
+      "initial": 1,
+      "increment": 2
+    },
+    "players": {
+      "players": [
+        {
+          "id": "rapid_worldchamp",
+          "username": "Rapid_WorldChamp",
+          "provider": "lichess",
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": true,
+          "seatedAt": 1646282524309,
+          "index": 0,
+          "thinkingTime": 60000,
+          "startedThinkingAt": 1646293214238,
+          "offerDraw": false
+        },
+        {
+          "id": "vbv-vbv",
+          "username": "VBV-VBV",
+          "provider": "lichess",
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": true,
+          "seatedAt": 1646293187920,
+          "index": 1,
+          "thinkingTime": 35705,
+          "startedThinkingAt": 1646293187920,
+          "offerDraw": false
+        }
+      ]
+    },
+    "inProgress": true,
+    "terminated": false,
+    "result": null,
+    "resultReason": "in progress",
+    "startedAt": 1646293187920,
+    "terminatedAt": 1646282518200,
+    "chat": {
+      "capacity": 100,
+      "messages": []
+    },
+    "playerSeatedAfterTermination": false
+  }
+}
