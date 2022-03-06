@@ -11,7 +11,8 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_Nf3"
+          "root_Nf3",
+          "root_e3"
         ],
         "parentid": null,
         "weights": [
@@ -27,6 +28,55 @@
         "genalgeb": "g1f3",
         "gensan": "Nf3",
         "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "childids": [
+          "root_Nf3_d5"
+        ],
+        "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nf3_d5": {
+        "id": "root_Nf3_d5",
+        "genalgeb": "d7d5",
+        "gensan": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "childids": [
+          "root_Nf3_d5_e3"
+        ],
+        "parentid": "root_Nf3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_Nf3_d5_e3": {
+        "id": "root_Nf3_d5_e3",
+        "genalgeb": "e2e3",
+        "gensan": "e3",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/4PN2/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
+        "childids": [],
+        "parentid": "root_Nf3_d5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e3": {
+        "id": "root_e3",
+        "genalgeb": "e2e3",
+        "gensan": "e3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
         "childids": [],
         "parentid": "root",
         "weights": [
@@ -38,7 +88,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_Nf3",
+    "currentnodeid": "root_e3",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
