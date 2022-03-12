@@ -3,7 +3,7 @@
   "san": "e4",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -36,53 +36,43 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 15,
-      "increment": 10
+      "initial": 3,
+      "increment": 2
     },
     "players": {
       "players": [
         {
-          "id": "xdmanbot",
-          "username": "xDmanBOT",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1647105545426,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 900000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "xdmanbot",
-          "username": "xDmanBOT",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1647105537483,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 900000,
-          "startedThinkingAt": 1647105545426,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
     "resultReason": "in progress",
-    "startedAt": 1647105545426,
-    "terminatedAt": 1647104001399,
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
