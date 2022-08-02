@@ -3,7 +3,7 @@
   "san": "e5",
   "game": {
     "variant": "standard",
-    "flip": true,
+    "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
@@ -27,8 +27,59 @@
         "genalgeb": "e2e4",
         "gensan": "e4",
         "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
-        "childids": [],
+        "childids": [
+          "root_e4_e5"
+        ],
         "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5": {
+        "id": "root_e4_e5",
+        "genalgeb": "e7e5",
+        "gensan": "e5",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_e4_e5_Nf3"
+        ],
+        "parentid": "root_e4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3": {
+        "id": "root_e4_e5_Nf3",
+        "genalgeb": "g1f3",
+        "gensan": "Nf3",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+        "childids": [
+          "root_e4_e5_Nf3_Bc5"
+        ],
+        "parentid": "root_e4_e5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Bc5": {
+        "id": "root_e4_e5_Nf3_Bc5",
+        "genalgeb": "f8c5",
+        "gensan": "Bc5",
+        "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+        "childids": [],
+        "parentid": "root_e4_e5_Nf3",
         "weights": [
           0,
           0
@@ -59,43 +110,35 @@
     "players": {
       "players": [
         {
-          "id": "my_sunshine",
-          "username": "My_SunShine",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1659355590160,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 900000,
-          "startedThinkingAt": 1659356108510,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "omereymenakgun",
-          "username": "OmerEymenAkgun",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1659354962150,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 401669,
-          "startedThinkingAt": 1659355590160,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
+    "result": 0.5,
+    "resultReason": "draw agreed",
     "startedAt": 1659355590160,
-    "terminatedAt": 1659175242767,
+    "terminatedAt": 1659356155469,
     "chat": {
       "capacity": 100,
       "messages": []
