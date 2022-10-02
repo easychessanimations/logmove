@@ -11,7 +11,7 @@
         "gensan": null,
         "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_d4"
+          "root_a3"
         ],
         "parentid": null,
         "weights": [
@@ -22,47 +22,13 @@
         "hasEval": false,
         "eval": null
       },
-      "root_d4": {
-        "id": "root_d4",
-        "genalgeb": "d2d4",
-        "gensan": "d4",
-        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
-        "childids": [
-          "root_d4_d6"
-        ],
-        "parentid": "root",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d4_d6": {
-        "id": "root_d4_d6",
-        "genalgeb": "d7d6",
-        "gensan": "d6",
-        "fen": "rnbqkbnr/ppp1pppp/3p4/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
-        "childids": [
-          "root_d4_d6_Nf3"
-        ],
-        "parentid": "root_d4",
-        "weights": [
-          0,
-          0
-        ],
-        "comment": "",
-        "hasEval": false,
-        "eval": null
-      },
-      "root_d4_d6_Nf3": {
-        "id": "root_d4_d6_Nf3",
-        "genalgeb": "g1f3",
-        "gensan": "Nf3",
-        "fen": "rnbqkbnr/ppp1pppp/3p4/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+      "root_a3": {
+        "id": "root_a3",
+        "genalgeb": "a2a3",
+        "gensan": "a3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
         "childids": [],
-        "parentid": "root_d4_d6",
+        "parentid": "root",
         "weights": [
           0,
           0
@@ -72,7 +38,7 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_d4_d6_Nf3",
+    "currentnodeid": "root_e4_e5_Nf3_Nf6_Nxe5_d6_Nf3_Nxe4_d4_Bf5_Bd3_Be7_O-O_d5_c4_dxc4_Bxc4_O-O_Bd3_Nd6_Nc3_Bxd3_Qxd3_Nc6_a3_Bf6_Bf4_g6_Rfe1_Nxd4_Nxd4_Bxd4_Qxd4_Nf5_Qxd8_Raxd8_Bxc7_Rd7_Bf4_f6_Ne4_Kf7_Bd2_g5_Bc3_Kg6_f3_h5_Rad1_Rxd1_Rxd1_Rf7",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
@@ -87,52 +53,62 @@
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 15,
-      "increment": 20
+      "initial": 3,
+      "increment": 2
     },
     "players": {
       "players": [
         {
-          "id": "simpafteur",
-          "username": "Simpafteur",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1664703149576,
+          "seated": false,
+          "seatedAt": null,
           "index": 0,
-          "thinkingTime": 900000,
-          "startedThinkingAt": null,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         },
         {
-          "id": "legabot",
-          "username": "Legabot",
-          "provider": "lichess",
           "glicko": {
             "rating": 1500,
             "rd": 250
           },
-          "seated": true,
-          "seatedAt": 1664647204928,
+          "seated": false,
+          "seatedAt": null,
           "index": 1,
-          "thinkingTime": 900000,
-          "startedThinkingAt": 1664703149576,
-          "offerDraw": false
+          "thinkingTime": 0,
+          "startedThinkingAt": null
         }
       ]
     },
-    "inProgress": true,
+    "inProgress": false,
     "terminated": false,
-    "result": null,
-    "resultReason": "in progress",
-    "startedAt": 1664703149576,
-    "terminatedAt": 1664646471521,
+    "result": 1,
+    "resultReason": "black resigned",
+    "startedAt": 1664444347805,
+    "terminatedAt": 1664444501148,
     "chat": {
       "capacity": 100,
-      "messages": []
+      "messages": [
+        {
+          "author": {
+            "id": "a2022newone",
+            "username": "A2022NEWONE",
+            "provider": "lichess",
+            "glicko": {
+              "rating": 1500,
+              "rd": 250
+            },
+            "seated": false,
+            "seatedAt": null,
+            "index": 0,
+            "thinkingTime": 0,
+            "startedThinkingAt": null
+          },
+          "msg": "Hi"
+        }
+      ]
     },
     "playerSeatedAfterTermination": false
   }
