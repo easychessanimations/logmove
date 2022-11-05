@@ -2,16 +2,16 @@
   "username": "SergioFransiss21",
   "san": "d4",
   "game": {
-    "variant": "atomic",
+    "variant": "eightpiece",
     "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
         "childids": [
-          "root_e3"
+          "root_c4"
         ],
         "parentid": null,
         "weights": [
@@ -22,13 +22,30 @@
         "hasEval": false,
         "eval": null
       },
-      "root_e3": {
-        "id": "root_e3",
-        "genalgeb": "e2e3",
-        "gensan": "e3",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
-        "childids": [],
+      "root_c4": {
+        "id": "root_c4",
+        "genalgeb": "c2c4",
+        "gensan": "c4",
+        "fen": "jlsesqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/JLneSQKBNR b KQkq - 0 1 -",
+        "childids": [
+          "root_c4_c5"
+        ],
         "parentid": "root",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_c4_c5": {
+        "id": "root_c4_c5",
+        "genalgeb": "c7c5",
+        "gensan": "c5",
+        "fen": "jlsesqkbnr/pp1ppppp/8/2p5/2P5/8/PP1PPPPP/JLneSQKBNR w KQkq - 0 2 -",
+        "childids": [],
+        "parentid": "root_c4",
         "weights": [
           0,
           0
@@ -38,23 +55,23 @@
         "eval": null
       }
     },
-    "currentnodeid": "root",
+    "currentnodeid": "root_c4_c5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
       [
         "Variant",
-        "Atomic"
+        "Eightpiece"
       ],
       [
         "FEN",
-        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
       ]
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 5,
-      "increment": 1
+      "initial": 1,
+      "increment": 8
     },
     "players": {
       "players": [
@@ -86,8 +103,8 @@
     "terminated": false,
     "result": 0,
     "resultReason": "flagged",
-    "startedAt": 1662343571470,
-    "terminatedAt": 1662343872434,
+    "startedAt": 1667646395423,
+    "terminatedAt": 1667646455962,
     "chat": {
       "capacity": 100,
       "messages": []
