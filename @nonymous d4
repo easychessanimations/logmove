@@ -2,17 +2,16 @@
   "username": "@nonymous",
   "san": "d4",
   "game": {
-    "variant": "eightpiece",
+    "variant": "standard",
     "flip": false,
     "gamenodes": {
       "root": {
         "id": "root",
         "genalgeb": null,
         "gensan": null,
-        "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         "childids": [
-          "root_a3",
-          "root_Nf3"
+          "root_e4"
         ],
         "parentid": null,
         "weights": [
@@ -23,12 +22,14 @@
         "hasEval": false,
         "eval": null
       },
-      "root_a3": {
-        "id": "root_a3",
-        "genalgeb": "a2a3",
-        "gensan": "a3",
-        "fen": "jlsesqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/JLneSQKBNR b KQkq - 0 1 -",
-        "childids": [],
+      "root_e4": {
+        "id": "root_e4",
+        "genalgeb": "e2e4",
+        "gensan": "e4",
+        "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "childids": [
+          "root_e4_e5"
+        ],
         "parentid": "root",
         "weights": [
           0,
@@ -38,15 +39,32 @@
         "hasEval": false,
         "eval": null
       },
-      "root_Nf3": {
-        "id": "root_Nf3",
+      "root_e4_e5": {
+        "id": "root_e4_e5",
+        "genalgeb": "e7e5",
+        "gensan": "e5",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "childids": [
+          "root_e4_e5_Nf3"
+        ],
+        "parentid": "root_e4",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3": {
+        "id": "root_e4_e5_Nf3",
         "genalgeb": "g1f3",
         "gensan": "Nf3",
-        "fen": "jlsesqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/JLneSQKB1R b KQkq - 1 1 -",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
         "childids": [
-          "root_Nf3_d5"
+          "root_e4_e5_Nf3_Nc6"
         ],
-        "parentid": "root",
+        "parentid": "root_e4_e5",
         "weights": [
           0,
           0
@@ -55,13 +73,115 @@
         "hasEval": false,
         "eval": null
       },
-      "root_Nf3_d5": {
-        "id": "root_Nf3_d5",
-        "genalgeb": "d7d5",
-        "gensan": "d5",
-        "fen": "jlsesqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPPP/JLneSQKB1R w KQkq - 0 2 -",
+      "root_e4_e5_Nf3_Nc6": {
+        "id": "root_e4_e5_Nf3_Nc6",
+        "genalgeb": "b8c6",
+        "gensan": "Nc6",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bb5"
+        ],
+        "parentid": "root_e4_e5_Nf3",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bb5": {
+        "id": "root_e4_e5_Nf3_Nc6_Bb5",
+        "genalgeb": "f1b5",
+        "gensan": "Bb5",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bb5_Nf6"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bb5_Nf6": {
+        "id": "root_e4_e5_Nf3_Nc6_Bb5_Nf6",
+        "genalgeb": "g8f6",
+        "gensan": "Nf6",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Bb5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O": {
+        "id": "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O",
+        "genalgeb": "e1h1",
+        "gensan": "O-O",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 5 4",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Bb5_Nf6",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5": {
+        "id": "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5",
+        "genalgeb": "f8c5",
+        "gensan": "Bc5",
+        "fen": "r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 6 5",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5_Nxe5"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5_Nxe5": {
+        "id": "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5_Nxe5",
+        "genalgeb": "f3e5",
+        "gensan": "Nxe5",
+        "fen": "r1bqk2r/pppp1ppp/2n2n2/1Bb1N3/4P3/8/PPPP1PPP/RNBQ1RK1 b kq - 0 5",
+        "childids": [
+          "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5_Nxe5_Nxe5"
+        ],
+        "parentid": "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5",
+        "weights": [
+          0,
+          0
+        ],
+        "comment": "",
+        "hasEval": false,
+        "eval": null
+      },
+      "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5_Nxe5_Nxe5": {
+        "id": "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5_Nxe5_Nxe5",
+        "genalgeb": "c6e5",
+        "gensan": "Nxe5",
+        "fen": "r1bqk2r/pppp1ppp/5n2/1Bb1n3/4P3/8/PPPP1PPP/RNBQ1RK1 w kq - 0 6",
         "childids": [],
-        "parentid": "root_Nf3",
+        "parentid": "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5_Nxe5",
         "weights": [
           0,
           0
@@ -71,23 +191,23 @@
         "eval": null
       }
     },
-    "currentnodeid": "root_Nf3_d5",
+    "currentnodeid": "root_e4_e5_Nf3_Nc6_Bb5_Nf6_O-O_Bc5_Nxe5_Nxe5",
     "animations": [],
     "animationDescriptors": {},
     "pgnHeaders": [
       [
         "Variant",
-        "Eightpiece"
+        "Standard"
       ],
       [
         "FEN",
-        "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
       ]
     ],
     "pgnBody": "*",
     "timecontrol": {
-      "initial": 1,
-      "increment": 8
+      "initial": 3,
+      "increment": 2
     },
     "players": {
       "players": [
@@ -117,14 +237,12 @@
     },
     "inProgress": false,
     "terminated": false,
-    "result": 0,
-    "resultReason": "flagged",
-    "startedAt": 1666995124922,
-    "terminatedAt": 1666995184928,
+    "resultReason": "in progress",
+    "startedAt": null,
+    "terminatedAt": null,
     "chat": {
       "capacity": 100,
       "messages": []
-    },
-    "playerSeatedAfterTermination": false
+    }
   }
 }
